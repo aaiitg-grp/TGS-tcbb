@@ -1,0 +1,8567 @@
+mut.info.matrix = 
+
+              G1           G2           G3           G4          G5
+G1  0.000000e+00 0.0148582676 0.0189036618 2.619178e-03 0.012741230
+G2  1.485827e-02 0.0000000000 0.0042730095 1.242747e-02 0.007157994
+G3  1.890366e-02 0.0042730095 0.0000000000 5.269076e-02 0.022140523
+G4  2.619178e-03 0.0124274652 0.0526907619 0.000000e+00 0.069985475
+G5  1.274123e-02 0.0071579942 0.0221405234 6.998548e-02 0.000000000
+G6  6.507965e-05 0.0068380402 0.0423528847 1.338151e-01 0.044309247
+G7  1.403927e-02 0.0076548765 0.0004172439 4.985601e-02 0.006701543
+G8  5.629422e-03 0.0010531909 0.0050902423 9.719118e-05 0.005629422
+G9  2.619178e-03 0.0233614586 0.0435314717 3.780071e-02 0.012806288
+G10 1.468822e-03 0.0001413598 0.0335503960 1.199524e-02 0.008897129
+              G6           G7           G8           G9          G10
+G1  6.507965e-05 1.403927e-02 5.629422e-03 2.619178e-03 1.468822e-03
+G2  6.838040e-03 7.654877e-03 1.053191e-03 2.336146e-02 1.413598e-04
+G3  4.235288e-02 4.172439e-04 5.090242e-03 4.353147e-02 3.355040e-02
+G4  1.338151e-01 4.985601e-02 9.719118e-05 3.780071e-02 1.199524e-02
+G5  4.430925e-02 6.701543e-03 5.629422e-03 1.280629e-02 8.897129e-03
+G6  0.000000e+00 3.046041e-02 2.054147e-04 6.380343e-02 4.245206e-04
+G7  3.046041e-02 0.000000e+00 1.228413e-02 1.959467e-02 2.582311e-05
+G8  2.054147e-04 1.228413e-02 0.000000e+00 9.719118e-05 1.560537e-02
+G9  6.380343e-02 1.959467e-02 9.719118e-05 0.000000e+00 7.221938e-03
+G10 4.245206e-04 2.582311e-05 1.560537e-02 7.221938e-03 0.000000e+00
+
+ mi.net.adj.matrix.wt = 
+
+            G1        G2          G3        G4          G5        G6        G7
+G1  0.00000000 1.2860486 1.538908126 0.0000000 0.660713319 0.0000000 0.8456937
+G2  1.28604857 0.0000000 0.000000000 0.5195471 0.000000000 0.0000000 0.0000000
+G3  1.53890813 0.0000000 0.000000000 1.4761850 0.045009347 0.9263073 0.0000000
+G4  0.00000000 0.5195471 1.476185004 0.0000000 2.323953955 3.1301855 2.1508156
+G5  0.66071332 0.0000000 0.045009347 2.3239540 0.000000000 1.0724095 0.0000000
+G6  0.00000000 0.0000000 0.926307255 3.1301855 1.072409491 0.0000000 0.9264044
+G7  0.84569371 0.0000000 0.000000000 2.1508156 0.000000000 0.9264044 0.0000000
+G8  0.09827646 0.0000000 0.002383429 0.0000000 0.098276464 0.0000000 1.2818139
+G9  0.00000000 2.0196713 1.359192371 0.6768299 0.000000000 2.0069452 0.2458034
+G10 0.00000000 0.0000000 2.318331768 0.2922757 0.007591719 0.0000000 0.0000000
+             G8        G9         G10
+G1  0.098276464 0.0000000 0.000000000
+G2  0.000000000 2.0196713 0.000000000
+G3  0.002383429 1.3591924 2.318331768
+G4  0.000000000 0.6768299 0.292275748
+G5  0.098276464 0.0000000 0.007591719
+G6  0.000000000 2.0069452 0.000000000
+G7  1.281813945 0.2458034 0.000000000
+G8  0.000000000 0.0000000 1.973734610
+G9  0.000000000 0.0000000 0.000000000
+G10 1.973734610 0.0000000 0.000000000
+
+ mi.net.adj.matrix = 
+
+    G1 G2 G3 G4 G5 G6 G7 G8 G9 G10
+G1   0  1  1  0  1  0  1  1  0   0
+G2   1  0  0  1  0  0  0  0  1   0
+G3   1  0  0  1  1  1  0  1  1   1
+G4   0  1  1  0  1  1  1  0  1   1
+G5   1  0  1  1  0  1  0  1  0   1
+G6   0  0  1  1  1  0  1  0  1   0
+G7   1  0  0  1  0  1  0  1  1   0
+G8   1  0  1  0  1  0  1  0  0   1
+G9   0  1  1  1  0  1  1  0  0   0
+G10  0  0  1  1  1  0  0  1  0   0
+
+ Max number of nbrs = 
+
+[1] 7
+
+ Nodes having max number of nbrs = 
+
+[1] "G3" "G4"
+nextElem.ixforeach called with redo FALSE
+evaluation # 1:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+      G1_t2
+G1_t1     0
+G2_t1     1
+G3_t1     0
+G5_t1     0
+G7_t1     0
+G8_t1     0
+got results for task 1
+accumulating result with tag 1
+fired:
+[1] 1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 2:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+      G1_t3
+G1_t2     0
+G2_t2     0
+G3_t2     0
+G5_t2     0
+G7_t2     0
+G8_t2     0
+got results for task 2
+accumulating result with tag 2
+fired:
+[1] 2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 3:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+      G1_t4
+G1_t3     0
+G2_t3     0
+G3_t3     0
+G5_t3     0
+G7_t3     0
+G8_t3     0
+got results for task 3
+accumulating result with tag 3
+fired:
+[1] 3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 4:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+      G1_t5
+G1_t4     0
+G2_t4     1
+G3_t4     0
+G5_t4     0
+G7_t4     0
+G8_t4     0
+got results for task 4
+accumulating result with tag 4
+fired:
+[1] 4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 5:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+      G1_t6
+G1_t5     0
+G2_t5     0
+G3_t5     0
+G5_t5     0
+G7_t5     0
+G8_t5     0
+got results for task 5
+accumulating result with tag 5
+fired:
+[1] 5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 6:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+      G1_t7
+G1_t6     0
+G2_t6     0
+G3_t6     0
+G5_t6     0
+G7_t6     0
+G8_t6     0
+got results for task 6
+accumulating result with tag 6
+fired:
+[1] 6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 7:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+      G1_t8
+G1_t7     0
+G2_t7     0
+G3_t7     0
+G5_t7     0
+G7_t7     0
+G8_t7     0
+got results for task 7
+accumulating result with tag 7
+fired:
+[1] 7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 8:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+      G1_t9
+G1_t8     0
+G2_t8     0
+G3_t8     0
+G5_t8     0
+G7_t8     0
+G8_t8     0
+got results for task 8
+accumulating result with tag 8
+fired:
+[1] 8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 9:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+      G1_t10
+G1_t9      0
+G2_t9      0
+G3_t9      0
+G5_t9      0
+G7_t9      0
+G8_t9      1
+got results for task 9
+accumulating result with tag 9
+fired:
+[1] 9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 10:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+       G1_t11
+G1_t10      0
+G2_t10      0
+G3_t10      0
+G5_t10      0
+G7_t10      0
+G8_t10      0
+got results for task 10
+accumulating result with tag 10
+fired:
+[1] 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 11:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+       G1_t12
+G1_t11      0
+G2_t11      0
+G3_t11      0
+G5_t11      0
+G7_t11      0
+G8_t11      0
+got results for task 11
+accumulating result with tag 11
+fired:
+[1] 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 12:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+       G1_t13
+G1_t12      0
+G2_t12      0
+G3_t12      0
+G5_t12      0
+G7_t12      0
+G8_t12      0
+got results for task 12
+accumulating result with tag 12
+fired:
+[1] 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 13:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+       G1_t14
+G1_t13      0
+G2_t13      0
+G3_t13      0
+G5_t13      0
+G7_t13      0
+G8_t13      0
+got results for task 13
+accumulating result with tag 13
+fired:
+[1] 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 14:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+       G1_t15
+G1_t14      0
+G2_t14      0
+G3_t14      0
+G5_t14      1
+G7_t14      0
+G8_t14      0
+got results for task 14
+accumulating result with tag 14
+fired:
+[1] 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 15:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+       G1_t16
+G1_t15      0
+G2_t15      0
+G3_t15      0
+G5_t15      0
+G7_t15      0
+G8_t15      0
+got results for task 15
+accumulating result with tag 15
+fired:
+[1] 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 16:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+       G1_t17
+G1_t16      0
+G2_t16      0
+G3_t16      0
+G5_t16      0
+G7_t16      0
+G8_t16      0
+got results for task 16
+accumulating result with tag 16
+fired:
+[1] 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 17:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+       G1_t18
+G1_t17      0
+G2_t17      0
+G3_t17      0
+G5_t17      1
+G7_t17      0
+G8_t17      0
+got results for task 17
+accumulating result with tag 17
+fired:
+[1] 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 18:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+       G1_t19
+G1_t18      0
+G2_t18      0
+G3_t18      0
+G5_t18      0
+G7_t18      0
+G8_t18      0
+got results for task 18
+accumulating result with tag 18
+fired:
+[1] 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 19:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+       G1_t20
+G1_t19      0
+G2_t19      0
+G3_t19      0
+G5_t19      0
+G7_t19      0
+G8_t19      0
+got results for task 19
+accumulating result with tag 19
+fired:
+[1] 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 20:
+$centralNodeIdx
+[1] 1
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+       G1_t21
+G1_t20      0
+G2_t20      0
+G3_t20      0
+G5_t20      0
+G7_t20      0
+G8_t20      0
+got results for task 20
+accumulating result with tag 20
+fired:
+[1] 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+      G1_t2
+G1_t1     0
+G2_t1     1
+G3_t1     0
+G5_t1     0
+G7_t1     0
+G8_t1     0
+
+[[2]]
+      G1_t3
+G1_t2     0
+G2_t2     0
+G3_t2     0
+G5_t2     0
+G7_t2     0
+G8_t2     0
+
+[[3]]
+      G1_t4
+G1_t3     0
+G2_t3     0
+G3_t3     0
+G5_t3     0
+G7_t3     0
+G8_t3     0
+
+[[4]]
+      G1_t5
+G1_t4     0
+G2_t4     1
+G3_t4     0
+G5_t4     0
+G7_t4     0
+G8_t4     0
+
+[[5]]
+      G1_t6
+G1_t5     0
+G2_t5     0
+G3_t5     0
+G5_t5     0
+G7_t5     0
+G8_t5     0
+
+[[6]]
+      G1_t7
+G1_t6     0
+G2_t6     0
+G3_t6     0
+G5_t6     0
+G7_t6     0
+G8_t6     0
+
+[[7]]
+      G1_t8
+G1_t7     0
+G2_t7     0
+G3_t7     0
+G5_t7     0
+G7_t7     0
+G8_t7     0
+
+[[8]]
+      G1_t9
+G1_t8     0
+G2_t8     0
+G3_t8     0
+G5_t8     0
+G7_t8     0
+G8_t8     0
+
+[[9]]
+      G1_t10
+G1_t9      0
+G2_t9      0
+G3_t9      0
+G5_t9      0
+G7_t9      0
+G8_t9      1
+
+[[10]]
+       G1_t11
+G1_t10      0
+G2_t10      0
+G3_t10      0
+G5_t10      0
+G7_t10      0
+G8_t10      0
+
+[[11]]
+       G1_t12
+G1_t11      0
+G2_t11      0
+G3_t11      0
+G5_t11      0
+G7_t11      0
+G8_t11      0
+
+[[12]]
+       G1_t13
+G1_t12      0
+G2_t12      0
+G3_t12      0
+G5_t12      0
+G7_t12      0
+G8_t12      0
+
+[[13]]
+       G1_t14
+G1_t13      0
+G2_t13      0
+G3_t13      0
+G5_t13      0
+G7_t13      0
+G8_t13      0
+
+[[14]]
+       G1_t15
+G1_t14      0
+G2_t14      0
+G3_t14      0
+G5_t14      1
+G7_t14      0
+G8_t14      0
+
+[[15]]
+       G1_t16
+G1_t15      0
+G2_t15      0
+G3_t15      0
+G5_t15      0
+G7_t15      0
+G8_t15      0
+
+[[16]]
+       G1_t17
+G1_t16      0
+G2_t16      0
+G3_t16      0
+G5_t16      0
+G7_t16      0
+G8_t16      0
+
+[[17]]
+       G1_t18
+G1_t17      0
+G2_t17      0
+G3_t17      0
+G5_t17      1
+G7_t17      0
+G8_t17      0
+
+[[18]]
+       G1_t19
+G1_t18      0
+G2_t18      0
+G3_t18      0
+G5_t18      0
+G7_t18      0
+G8_t18      0
+
+[[19]]
+       G1_t20
+G1_t19      0
+G2_t19      0
+G3_t19      0
+G5_t19      0
+G7_t19      0
+G8_t19      0
+
+[[20]]
+       G1_t21
+G1_t20      0
+G2_t20      0
+G3_t20      0
+G5_t20      0
+G7_t20      0
+G8_t20      0
+
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+evaluation # 21:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+      G2_t2
+G2_t1     0
+G1_t1     0
+G4_t1     1
+G9_t1     0
+got results for task 21
+accumulating result with tag 21
+fired:
+[1] 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 22:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+      G2_t3
+G2_t2     0
+G1_t2     0
+G4_t2     1
+G9_t2     0
+got results for task 22
+accumulating result with tag 22
+fired:
+[1] 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 23:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+      G2_t4
+G2_t3     1
+G1_t3     0
+G4_t3     0
+G9_t3     0
+got results for task 23
+accumulating result with tag 23
+fired:
+[1] 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 24:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+      G2_t5
+G2_t4     1
+G1_t4     0
+G4_t4     0
+G9_t4     0
+got results for task 24
+accumulating result with tag 24
+fired:
+[1] 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 25:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+      G2_t6
+G2_t5     0
+G1_t5     0
+G4_t5     1
+G9_t5     0
+got results for task 25
+accumulating result with tag 25
+fired:
+[1] 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 26:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+      G2_t7
+G2_t6     0
+G1_t6     0
+G4_t6     1
+G9_t6     0
+got results for task 26
+accumulating result with tag 26
+fired:
+[1] 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 27:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+      G2_t8
+G2_t7     1
+G1_t7     0
+G4_t7     0
+G9_t7     0
+got results for task 27
+accumulating result with tag 27
+fired:
+[1] 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 28:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+      G2_t9
+G2_t8     1
+G1_t8     0
+G4_t8     0
+G9_t8     0
+got results for task 28
+accumulating result with tag 28
+fired:
+[1] 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 29:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+      G2_t10
+G2_t9      0
+G1_t9      0
+G4_t9      0
+G9_t9      0
+got results for task 29
+accumulating result with tag 29
+fired:
+[1] 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 30:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+       G2_t11
+G2_t10      0
+G1_t10      0
+G4_t10      0
+G9_t10      0
+got results for task 30
+accumulating result with tag 30
+fired:
+[1] 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 31:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+       G2_t12
+G2_t11      0
+G1_t11      0
+G4_t11      0
+G9_t11      0
+got results for task 31
+accumulating result with tag 31
+fired:
+[1] 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 32:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+       G2_t13
+G2_t12      0
+G1_t12      0
+G4_t12      0
+G9_t12      0
+got results for task 32
+accumulating result with tag 32
+fired:
+[1] 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 33:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+       G2_t14
+G2_t13      0
+G1_t13      0
+G4_t13      0
+G9_t13      0
+got results for task 33
+accumulating result with tag 33
+fired:
+[1] 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 34:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+       G2_t15
+G2_t14      0
+G1_t14      0
+G4_t14      0
+G9_t14      0
+got results for task 34
+accumulating result with tag 34
+fired:
+[1] 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 35:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+       G2_t16
+G2_t15      0
+G1_t15      0
+G4_t15      0
+G9_t15      0
+got results for task 35
+accumulating result with tag 35
+fired:
+[1] 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 36:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+       G2_t17
+G2_t16      0
+G1_t16      0
+G4_t16      0
+G9_t16      0
+got results for task 36
+accumulating result with tag 36
+fired:
+[1] 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 37:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+       G2_t18
+G2_t17      0
+G1_t17      0
+G4_t17      0
+G9_t17      0
+got results for task 37
+accumulating result with tag 37
+fired:
+[1] 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 38:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+       G2_t19
+G2_t18      0
+G1_t18      0
+G4_t18      0
+G9_t18      0
+got results for task 38
+accumulating result with tag 38
+fired:
+[1] 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 39:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+       G2_t20
+G2_t19      0
+G1_t19      0
+G4_t19      0
+G9_t19      0
+got results for task 39
+accumulating result with tag 39
+fired:
+[1] 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 40:
+$centralNodeIdx
+[1] 2
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+       G2_t21
+G2_t20      0
+G1_t20      0
+G4_t20      0
+G9_t20      0
+got results for task 40
+accumulating result with tag 40
+fired:
+[1] 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+      G2_t2
+G2_t1     0
+G1_t1     0
+G4_t1     1
+G9_t1     0
+
+[[2]]
+      G2_t3
+G2_t2     0
+G1_t2     0
+G4_t2     1
+G9_t2     0
+
+[[3]]
+      G2_t4
+G2_t3     1
+G1_t3     0
+G4_t3     0
+G9_t3     0
+
+[[4]]
+      G2_t5
+G2_t4     1
+G1_t4     0
+G4_t4     0
+G9_t4     0
+
+[[5]]
+      G2_t6
+G2_t5     0
+G1_t5     0
+G4_t5     1
+G9_t5     0
+
+[[6]]
+      G2_t7
+G2_t6     0
+G1_t6     0
+G4_t6     1
+G9_t6     0
+
+[[7]]
+      G2_t8
+G2_t7     1
+G1_t7     0
+G4_t7     0
+G9_t7     0
+
+[[8]]
+      G2_t9
+G2_t8     1
+G1_t8     0
+G4_t8     0
+G9_t8     0
+
+[[9]]
+      G2_t10
+G2_t9      0
+G1_t9      0
+G4_t9      0
+G9_t9      0
+
+[[10]]
+       G2_t11
+G2_t10      0
+G1_t10      0
+G4_t10      0
+G9_t10      0
+
+[[11]]
+       G2_t12
+G2_t11      0
+G1_t11      0
+G4_t11      0
+G9_t11      0
+
+[[12]]
+       G2_t13
+G2_t12      0
+G1_t12      0
+G4_t12      0
+G9_t12      0
+
+[[13]]
+       G2_t14
+G2_t13      0
+G1_t13      0
+G4_t13      0
+G9_t13      0
+
+[[14]]
+       G2_t15
+G2_t14      0
+G1_t14      0
+G4_t14      0
+G9_t14      0
+
+[[15]]
+       G2_t16
+G2_t15      0
+G1_t15      0
+G4_t15      0
+G9_t15      0
+
+[[16]]
+       G2_t17
+G2_t16      0
+G1_t16      0
+G4_t16      0
+G9_t16      0
+
+[[17]]
+       G2_t18
+G2_t17      0
+G1_t17      0
+G4_t17      0
+G9_t17      0
+
+[[18]]
+       G2_t19
+G2_t18      0
+G1_t18      0
+G4_t18      0
+G9_t18      0
+
+[[19]]
+       G2_t20
+G2_t19      0
+G1_t19      0
+G4_t19      0
+G9_t19      0
+
+[[20]]
+       G2_t21
+G2_t20      0
+G1_t20      0
+G4_t20      0
+G9_t20      0
+
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+evaluation # 41:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+       G3_t2
+G3_t1      0
+G1_t1      0
+G4_t1      0
+G5_t1      0
+G6_t1      0
+G8_t1      0
+G9_t1      0
+G10_t1     0
+got results for task 41
+accumulating result with tag 41
+fired:
+[1] 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 42:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+       G3_t3
+G3_t2      0
+G1_t2      0
+G4_t2      0
+G5_t2      0
+G6_t2      0
+G8_t2      0
+G9_t2      0
+G10_t2     0
+got results for task 42
+accumulating result with tag 42
+fired:
+[1] 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 43:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+       G3_t4
+G3_t3      0
+G1_t3      0
+G4_t3      0
+G5_t3      0
+G6_t3      0
+G8_t3      0
+G9_t3      0
+G10_t3     0
+got results for task 43
+accumulating result with tag 43
+fired:
+[1] 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 44:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+       G3_t5
+G3_t4      0
+G1_t4      0
+G4_t4      0
+G5_t4      0
+G6_t4      0
+G8_t4      0
+G9_t4      0
+G10_t4     0
+got results for task 44
+accumulating result with tag 44
+fired:
+[1] 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 45:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+       G3_t6
+G3_t5      0
+G1_t5      0
+G4_t5      0
+G5_t5      0
+G6_t5      0
+G8_t5      0
+G9_t5      0
+G10_t5     0
+got results for task 45
+accumulating result with tag 45
+fired:
+[1] 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 46:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+       G3_t7
+G3_t6      0
+G1_t6      0
+G4_t6      0
+G5_t6      0
+G6_t6      1
+G8_t6      0
+G9_t6      0
+G10_t6     0
+got results for task 46
+accumulating result with tag 46
+fired:
+[1] 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 47:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+       G3_t8
+G3_t7      0
+G1_t7      0
+G4_t7      0
+G5_t7      0
+G6_t7      0
+G8_t7      0
+G9_t7      0
+G10_t7     0
+got results for task 47
+accumulating result with tag 47
+fired:
+[1] 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 48:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+       G3_t9
+G3_t8      0
+G1_t8      0
+G4_t8      0
+G5_t8      0
+G6_t8      0
+G8_t8      0
+G9_t8      0
+G10_t8     0
+got results for task 48
+accumulating result with tag 48
+fired:
+[1] 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 49:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+       G3_t10
+G3_t9       0
+G1_t9       0
+G4_t9       0
+G5_t9       0
+G6_t9       0
+G8_t9       0
+G9_t9       0
+G10_t9      0
+got results for task 49
+accumulating result with tag 49
+fired:
+[1] 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 50:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+        G3_t11
+G3_t10       0
+G1_t10       0
+G4_t10       0
+G5_t10       0
+G6_t10       0
+G8_t10       0
+G9_t10       0
+G10_t10      0
+got results for task 50
+accumulating result with tag 50
+fired:
+[1] 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 51:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+        G3_t12
+G3_t11       0
+G1_t11       0
+G4_t11       0
+G5_t11       0
+G6_t11       0
+G8_t11       0
+G9_t11       0
+G10_t11      0
+got results for task 51
+accumulating result with tag 51
+fired:
+[1] 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 52:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+        G3_t13
+G3_t12       0
+G1_t12       0
+G4_t12       0
+G5_t12       0
+G6_t12       0
+G8_t12       0
+G9_t12       0
+G10_t12      0
+got results for task 52
+accumulating result with tag 52
+fired:
+[1] 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 53:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+        G3_t14
+G3_t13       0
+G1_t13       0
+G4_t13       0
+G5_t13       0
+G6_t13       0
+G8_t13       0
+G9_t13       0
+G10_t13      0
+got results for task 53
+accumulating result with tag 53
+fired:
+[1] 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 54:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+        G3_t15
+G3_t14       0
+G1_t14       0
+G4_t14       0
+G5_t14       0
+G6_t14       0
+G8_t14       0
+G9_t14       0
+G10_t14      0
+got results for task 54
+accumulating result with tag 54
+fired:
+[1] 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 55:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+        G3_t16
+G3_t15       0
+G1_t15       0
+G4_t15       0
+G5_t15       0
+G6_t15       0
+G8_t15       0
+G9_t15       0
+G10_t15      0
+got results for task 55
+accumulating result with tag 55
+fired:
+[1] 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 56:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+        G3_t17
+G3_t16       0
+G1_t16       0
+G4_t16       0
+G5_t16       0
+G6_t16       0
+G8_t16       0
+G9_t16       0
+G10_t16      0
+got results for task 56
+accumulating result with tag 56
+fired:
+[1] 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 57:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+        G3_t18
+G3_t17       0
+G1_t17       0
+G4_t17       0
+G5_t17       1
+G6_t17       0
+G8_t17       0
+G9_t17       0
+G10_t17      0
+got results for task 57
+accumulating result with tag 57
+fired:
+[1] 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 58:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+        G3_t19
+G3_t18       0
+G1_t18       0
+G4_t18       0
+G5_t18       0
+G6_t18       0
+G8_t18       0
+G9_t18       0
+G10_t18      0
+got results for task 58
+accumulating result with tag 58
+fired:
+[1] 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 59:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+        G3_t20
+G3_t19       0
+G1_t19       0
+G4_t19       0
+G5_t19       0
+G6_t19       0
+G8_t19       0
+G9_t19       0
+G10_t19      0
+got results for task 59
+accumulating result with tag 59
+fired:
+[1] 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 60:
+$centralNodeIdx
+[1] 3
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+        G3_t21
+G3_t20       0
+G1_t20       0
+G4_t20       0
+G5_t20       0
+G6_t20       0
+G8_t20       0
+G9_t20       0
+G10_t20      0
+got results for task 60
+accumulating result with tag 60
+fired:
+[1] 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+       G3_t2
+G3_t1      0
+G1_t1      0
+G4_t1      0
+G5_t1      0
+G6_t1      0
+G8_t1      0
+G9_t1      0
+G10_t1     0
+
+[[2]]
+       G3_t3
+G3_t2      0
+G1_t2      0
+G4_t2      0
+G5_t2      0
+G6_t2      0
+G8_t2      0
+G9_t2      0
+G10_t2     0
+
+[[3]]
+       G3_t4
+G3_t3      0
+G1_t3      0
+G4_t3      0
+G5_t3      0
+G6_t3      0
+G8_t3      0
+G9_t3      0
+G10_t3     0
+
+[[4]]
+       G3_t5
+G3_t4      0
+G1_t4      0
+G4_t4      0
+G5_t4      0
+G6_t4      0
+G8_t4      0
+G9_t4      0
+G10_t4     0
+
+[[5]]
+       G3_t6
+G3_t5      0
+G1_t5      0
+G4_t5      0
+G5_t5      0
+G6_t5      0
+G8_t5      0
+G9_t5      0
+G10_t5     0
+
+[[6]]
+       G3_t7
+G3_t6      0
+G1_t6      0
+G4_t6      0
+G5_t6      0
+G6_t6      1
+G8_t6      0
+G9_t6      0
+G10_t6     0
+
+[[7]]
+       G3_t8
+G3_t7      0
+G1_t7      0
+G4_t7      0
+G5_t7      0
+G6_t7      0
+G8_t7      0
+G9_t7      0
+G10_t7     0
+
+[[8]]
+       G3_t9
+G3_t8      0
+G1_t8      0
+G4_t8      0
+G5_t8      0
+G6_t8      0
+G8_t8      0
+G9_t8      0
+G10_t8     0
+
+[[9]]
+       G3_t10
+G3_t9       0
+G1_t9       0
+G4_t9       0
+G5_t9       0
+G6_t9       0
+G8_t9       0
+G9_t9       0
+G10_t9      0
+
+[[10]]
+        G3_t11
+G3_t10       0
+G1_t10       0
+G4_t10       0
+G5_t10       0
+G6_t10       0
+G8_t10       0
+G9_t10       0
+G10_t10      0
+
+[[11]]
+        G3_t12
+G3_t11       0
+G1_t11       0
+G4_t11       0
+G5_t11       0
+G6_t11       0
+G8_t11       0
+G9_t11       0
+G10_t11      0
+
+[[12]]
+        G3_t13
+G3_t12       0
+G1_t12       0
+G4_t12       0
+G5_t12       0
+G6_t12       0
+G8_t12       0
+G9_t12       0
+G10_t12      0
+
+[[13]]
+        G3_t14
+G3_t13       0
+G1_t13       0
+G4_t13       0
+G5_t13       0
+G6_t13       0
+G8_t13       0
+G9_t13       0
+G10_t13      0
+
+[[14]]
+        G3_t15
+G3_t14       0
+G1_t14       0
+G4_t14       0
+G5_t14       0
+G6_t14       0
+G8_t14       0
+G9_t14       0
+G10_t14      0
+
+[[15]]
+        G3_t16
+G3_t15       0
+G1_t15       0
+G4_t15       0
+G5_t15       0
+G6_t15       0
+G8_t15       0
+G9_t15       0
+G10_t15      0
+
+[[16]]
+        G3_t17
+G3_t16       0
+G1_t16       0
+G4_t16       0
+G5_t16       0
+G6_t16       0
+G8_t16       0
+G9_t16       0
+G10_t16      0
+
+[[17]]
+        G3_t18
+G3_t17       0
+G1_t17       0
+G4_t17       0
+G5_t17       1
+G6_t17       0
+G8_t17       0
+G9_t17       0
+G10_t17      0
+
+[[18]]
+        G3_t19
+G3_t18       0
+G1_t18       0
+G4_t18       0
+G5_t18       0
+G6_t18       0
+G8_t18       0
+G9_t18       0
+G10_t18      0
+
+[[19]]
+        G3_t20
+G3_t19       0
+G1_t19       0
+G4_t19       0
+G5_t19       0
+G6_t19       0
+G8_t19       0
+G9_t19       0
+G10_t19      0
+
+[[20]]
+        G3_t21
+G3_t20       0
+G1_t20       0
+G4_t20       0
+G5_t20       0
+G6_t20       0
+G8_t20       0
+G9_t20       0
+G10_t20      0
+
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+evaluation # 61:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+       G4_t2
+G4_t1      0
+G2_t1      1
+G3_t1      0
+G5_t1      0
+G6_t1      0
+G7_t1      0
+G9_t1      0
+G10_t1     0
+got results for task 61
+accumulating result with tag 61
+fired:
+[1] 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 62:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+       G4_t3
+G4_t2      0
+G2_t2      0
+G3_t2      0
+G5_t2      0
+G6_t2      0
+G7_t2      0
+G9_t2      0
+G10_t2     0
+got results for task 62
+accumulating result with tag 62
+fired:
+[1] 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 63:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+       G4_t4
+G4_t3      0
+G2_t3      0
+G3_t3      0
+G5_t3      0
+G6_t3      0
+G7_t3      0
+G9_t3      0
+G10_t3     0
+got results for task 63
+accumulating result with tag 63
+fired:
+[1] 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 64:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+       G4_t5
+G4_t4      0
+G2_t4      1
+G3_t4      0
+G5_t4      0
+G6_t4      0
+G7_t4      0
+G9_t4      0
+G10_t4     0
+got results for task 64
+accumulating result with tag 64
+fired:
+[1] 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 65:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+       G4_t6
+G4_t5      0
+G2_t5      1
+G3_t5      0
+G5_t5      0
+G6_t5      0
+G7_t5      0
+G9_t5      0
+G10_t5     0
+got results for task 65
+accumulating result with tag 65
+fired:
+[1] 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 66:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+       G4_t7
+G4_t6      0
+G2_t6      0
+G3_t6      0
+G5_t6      0
+G6_t6      1
+G7_t6      0
+G9_t6      0
+G10_t6     0
+got results for task 66
+accumulating result with tag 66
+fired:
+[1] 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 67:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+       G4_t8
+G4_t7      0
+G2_t7      0
+G3_t7      0
+G5_t7      0
+G6_t7      0
+G7_t7      0
+G9_t7      0
+G10_t7     0
+got results for task 67
+accumulating result with tag 67
+fired:
+[1] 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 68:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+       G4_t9
+G4_t8      0
+G2_t8      0
+G3_t8      0
+G5_t8      0
+G6_t8      0
+G7_t8      0
+G9_t8      0
+G10_t8     0
+got results for task 68
+accumulating result with tag 68
+fired:
+[1] 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 69:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+       G4_t10
+G4_t9       0
+G2_t9       0
+G3_t9       0
+G5_t9       0
+G6_t9       0
+G7_t9       0
+G9_t9       0
+G10_t9      0
+got results for task 69
+accumulating result with tag 69
+fired:
+[1] 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 70:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+        G4_t11
+G4_t10       0
+G2_t10       0
+G3_t10       0
+G5_t10       0
+G6_t10       0
+G7_t10       0
+G9_t10       0
+G10_t10      0
+got results for task 70
+accumulating result with tag 70
+fired:
+[1] 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 71:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+        G4_t12
+G4_t11       0
+G2_t11       0
+G3_t11       0
+G5_t11       0
+G6_t11       0
+G7_t11       0
+G9_t11       0
+G10_t11      0
+got results for task 71
+accumulating result with tag 71
+fired:
+[1] 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 72:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+        G4_t13
+G4_t12       0
+G2_t12       0
+G3_t12       0
+G5_t12       0
+G6_t12       0
+G7_t12       0
+G9_t12       0
+G10_t12      0
+got results for task 72
+accumulating result with tag 72
+fired:
+[1] 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 73:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+        G4_t14
+G4_t13       0
+G2_t13       0
+G3_t13       0
+G5_t13       0
+G6_t13       0
+G7_t13       0
+G9_t13       0
+G10_t13      0
+got results for task 73
+accumulating result with tag 73
+fired:
+[1] 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 74:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+        G4_t15
+G4_t14       0
+G2_t14       0
+G3_t14       0
+G5_t14       0
+G6_t14       0
+G7_t14       0
+G9_t14       0
+G10_t14      0
+got results for task 74
+accumulating result with tag 74
+fired:
+[1] 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 75:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+        G4_t16
+G4_t15       0
+G2_t15       0
+G3_t15       0
+G5_t15       0
+G6_t15       0
+G7_t15       0
+G9_t15       0
+G10_t15      0
+got results for task 75
+accumulating result with tag 75
+fired:
+[1] 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 76:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+        G4_t17
+G4_t16       0
+G2_t16       0
+G3_t16       0
+G5_t16       0
+G6_t16       0
+G7_t16       0
+G9_t16       0
+G10_t16      0
+got results for task 76
+accumulating result with tag 76
+fired:
+[1] 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 77:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+        G4_t18
+G4_t17       0
+G2_t17       0
+G3_t17       0
+G5_t17       0
+G6_t17       0
+G7_t17       0
+G9_t17       0
+G10_t17      0
+got results for task 77
+accumulating result with tag 77
+fired:
+[1] 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 78:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+        G4_t19
+G4_t18       0
+G2_t18       0
+G3_t18       0
+G5_t18       0
+G6_t18       0
+G7_t18       0
+G9_t18       0
+G10_t18      0
+got results for task 78
+accumulating result with tag 78
+fired:
+[1] 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 79:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+        G4_t20
+G4_t19       0
+G2_t19       0
+G3_t19       0
+G5_t19       0
+G6_t19       0
+G7_t19       0
+G9_t19       0
+G10_t19      0
+got results for task 79
+accumulating result with tag 79
+fired:
+[1] 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 80:
+$centralNodeIdx
+[1] 4
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+        G4_t21
+G4_t20       0
+G2_t20       0
+G3_t20       0
+G5_t20       0
+G6_t20       0
+G7_t20       0
+G9_t20       0
+G10_t20      0
+got results for task 80
+accumulating result with tag 80
+fired:
+[1] 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+       G4_t2
+G4_t1      0
+G2_t1      1
+G3_t1      0
+G5_t1      0
+G6_t1      0
+G7_t1      0
+G9_t1      0
+G10_t1     0
+
+[[2]]
+       G4_t3
+G4_t2      0
+G2_t2      0
+G3_t2      0
+G5_t2      0
+G6_t2      0
+G7_t2      0
+G9_t2      0
+G10_t2     0
+
+[[3]]
+       G4_t4
+G4_t3      0
+G2_t3      0
+G3_t3      0
+G5_t3      0
+G6_t3      0
+G7_t3      0
+G9_t3      0
+G10_t3     0
+
+[[4]]
+       G4_t5
+G4_t4      0
+G2_t4      1
+G3_t4      0
+G5_t4      0
+G6_t4      0
+G7_t4      0
+G9_t4      0
+G10_t4     0
+
+[[5]]
+       G4_t6
+G4_t5      0
+G2_t5      1
+G3_t5      0
+G5_t5      0
+G6_t5      0
+G7_t5      0
+G9_t5      0
+G10_t5     0
+
+[[6]]
+       G4_t7
+G4_t6      0
+G2_t6      0
+G3_t6      0
+G5_t6      0
+G6_t6      1
+G7_t6      0
+G9_t6      0
+G10_t6     0
+
+[[7]]
+       G4_t8
+G4_t7      0
+G2_t7      0
+G3_t7      0
+G5_t7      0
+G6_t7      0
+G7_t7      0
+G9_t7      0
+G10_t7     0
+
+[[8]]
+       G4_t9
+G4_t8      0
+G2_t8      0
+G3_t8      0
+G5_t8      0
+G6_t8      0
+G7_t8      0
+G9_t8      0
+G10_t8     0
+
+[[9]]
+       G4_t10
+G4_t9       0
+G2_t9       0
+G3_t9       0
+G5_t9       0
+G6_t9       0
+G7_t9       0
+G9_t9       0
+G10_t9      0
+
+[[10]]
+        G4_t11
+G4_t10       0
+G2_t10       0
+G3_t10       0
+G5_t10       0
+G6_t10       0
+G7_t10       0
+G9_t10       0
+G10_t10      0
+
+[[11]]
+        G4_t12
+G4_t11       0
+G2_t11       0
+G3_t11       0
+G5_t11       0
+G6_t11       0
+G7_t11       0
+G9_t11       0
+G10_t11      0
+
+[[12]]
+        G4_t13
+G4_t12       0
+G2_t12       0
+G3_t12       0
+G5_t12       0
+G6_t12       0
+G7_t12       0
+G9_t12       0
+G10_t12      0
+
+[[13]]
+        G4_t14
+G4_t13       0
+G2_t13       0
+G3_t13       0
+G5_t13       0
+G6_t13       0
+G7_t13       0
+G9_t13       0
+G10_t13      0
+
+[[14]]
+        G4_t15
+G4_t14       0
+G2_t14       0
+G3_t14       0
+G5_t14       0
+G6_t14       0
+G7_t14       0
+G9_t14       0
+G10_t14      0
+
+[[15]]
+        G4_t16
+G4_t15       0
+G2_t15       0
+G3_t15       0
+G5_t15       0
+G6_t15       0
+G7_t15       0
+G9_t15       0
+G10_t15      0
+
+[[16]]
+        G4_t17
+G4_t16       0
+G2_t16       0
+G3_t16       0
+G5_t16       0
+G6_t16       0
+G7_t16       0
+G9_t16       0
+G10_t16      0
+
+[[17]]
+        G4_t18
+G4_t17       0
+G2_t17       0
+G3_t17       0
+G5_t17       0
+G6_t17       0
+G7_t17       0
+G9_t17       0
+G10_t17      0
+
+[[18]]
+        G4_t19
+G4_t18       0
+G2_t18       0
+G3_t18       0
+G5_t18       0
+G6_t18       0
+G7_t18       0
+G9_t18       0
+G10_t18      0
+
+[[19]]
+        G4_t20
+G4_t19       0
+G2_t19       0
+G3_t19       0
+G5_t19       0
+G6_t19       0
+G7_t19       0
+G9_t19       0
+G10_t19      0
+
+[[20]]
+        G4_t21
+G4_t20       0
+G2_t20       0
+G3_t20       0
+G5_t20       0
+G6_t20       0
+G7_t20       0
+G9_t20       0
+G10_t20      0
+
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+evaluation # 81:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+       G5_t2
+G5_t1      0
+G1_t1      0
+G3_t1      0
+G4_t1      0
+G6_t1      0
+G8_t1      0
+G10_t1     0
+got results for task 81
+accumulating result with tag 81
+fired:
+[1] 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 82:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+       G5_t3
+G5_t2      0
+G1_t2      0
+G3_t2      0
+G4_t2      0
+G6_t2      0
+G8_t2      0
+G10_t2     0
+got results for task 82
+accumulating result with tag 82
+fired:
+[1] 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 83:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+       G5_t4
+G5_t3      0
+G1_t3      0
+G3_t3      0
+G4_t3      0
+G6_t3      0
+G8_t3      0
+G10_t3     0
+got results for task 83
+accumulating result with tag 83
+fired:
+[1] 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 84:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+       G5_t5
+G5_t4      0
+G1_t4      0
+G3_t4      0
+G4_t4      0
+G6_t4      0
+G8_t4      0
+G10_t4     0
+got results for task 84
+accumulating result with tag 84
+fired:
+[1] 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 85:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+       G5_t6
+G5_t5      0
+G1_t5      0
+G3_t5      0
+G4_t5      0
+G6_t5      0
+G8_t5      0
+G10_t5     0
+got results for task 85
+accumulating result with tag 85
+fired:
+[1] 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 86:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+       G5_t7
+G5_t6      0
+G1_t6      0
+G3_t6      0
+G4_t6      0
+G6_t6      0
+G8_t6      0
+G10_t6     0
+got results for task 86
+accumulating result with tag 86
+fired:
+[1] 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 87:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+       G5_t8
+G5_t7      0
+G1_t7      0
+G3_t7      0
+G4_t7      0
+G6_t7      0
+G8_t7      0
+G10_t7     0
+got results for task 87
+accumulating result with tag 87
+fired:
+[1] 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 88:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+       G5_t9
+G5_t8      0
+G1_t8      0
+G3_t8      1
+G4_t8      0
+G6_t8      0
+G8_t8      0
+G10_t8     0
+got results for task 88
+accumulating result with tag 88
+fired:
+[1] 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 89:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+       G5_t10
+G5_t9       0
+G1_t9       0
+G3_t9       0
+G4_t9       0
+G6_t9       0
+G8_t9       0
+G10_t9      0
+got results for task 89
+accumulating result with tag 89
+fired:
+[1] 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 90:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+        G5_t11
+G5_t10       0
+G1_t10       0
+G3_t10       0
+G4_t10       0
+G6_t10       0
+G8_t10       0
+G10_t10      0
+got results for task 90
+accumulating result with tag 90
+fired:
+[1] 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 91:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+        G5_t12
+G5_t11       0
+G1_t11       0
+G3_t11       0
+G4_t11       0
+G6_t11       0
+G8_t11       0
+G10_t11      0
+got results for task 91
+accumulating result with tag 91
+fired:
+[1] 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 92:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+        G5_t13
+G5_t12       0
+G1_t12       0
+G3_t12       0
+G4_t12       0
+G6_t12       0
+G8_t12       0
+G10_t12      0
+got results for task 92
+accumulating result with tag 92
+fired:
+[1] 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 93:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+        G5_t14
+G5_t13       0
+G1_t13       0
+G3_t13       0
+G4_t13       0
+G6_t13       0
+G8_t13       1
+G10_t13      0
+got results for task 93
+accumulating result with tag 93
+fired:
+[1] 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 94:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+        G5_t15
+G5_t14       0
+G1_t14       0
+G3_t14       0
+G4_t14       0
+G6_t14       0
+G8_t14       0
+G10_t14      0
+got results for task 94
+accumulating result with tag 94
+fired:
+[1] 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 95:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+        G5_t16
+G5_t15       0
+G1_t15       0
+G3_t15       0
+G4_t15       0
+G6_t15       0
+G8_t15       0
+G10_t15      0
+got results for task 95
+accumulating result with tag 95
+fired:
+[1] 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 96:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+        G5_t17
+G5_t16       0
+G1_t16       0
+G3_t16       0
+G4_t16       0
+G6_t16       0
+G8_t16       0
+G10_t16      0
+got results for task 96
+accumulating result with tag 96
+fired:
+[1] 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 97:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+        G5_t18
+G5_t17       0
+G1_t17       0
+G3_t17       0
+G4_t17       0
+G6_t17       0
+G8_t17       0
+G10_t17      0
+got results for task 97
+accumulating result with tag 97
+fired:
+[1] 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 98:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+        G5_t19
+G5_t18       0
+G1_t18       0
+G3_t18       0
+G4_t18       0
+G6_t18       0
+G8_t18       0
+G10_t18      0
+got results for task 98
+accumulating result with tag 98
+fired:
+[1] 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 99:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+        G5_t20
+G5_t19       0
+G1_t19       0
+G3_t19       0
+G4_t19       0
+G6_t19       0
+G8_t19       0
+G10_t19      0
+got results for task 99
+accumulating result with tag 99
+fired:
+[1] 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 100:
+$centralNodeIdx
+[1] 5
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+        G5_t21
+G5_t20       0
+G1_t20       0
+G3_t20       0
+G4_t20       0
+G6_t20       0
+G8_t20       0
+G10_t20      0
+got results for task 100
+accumulating result with tag 100
+fired:
+[1] 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+       G5_t2
+G5_t1      0
+G1_t1      0
+G3_t1      0
+G4_t1      0
+G6_t1      0
+G8_t1      0
+G10_t1     0
+
+[[2]]
+       G5_t3
+G5_t2      0
+G1_t2      0
+G3_t2      0
+G4_t2      0
+G6_t2      0
+G8_t2      0
+G10_t2     0
+
+[[3]]
+       G5_t4
+G5_t3      0
+G1_t3      0
+G3_t3      0
+G4_t3      0
+G6_t3      0
+G8_t3      0
+G10_t3     0
+
+[[4]]
+       G5_t5
+G5_t4      0
+G1_t4      0
+G3_t4      0
+G4_t4      0
+G6_t4      0
+G8_t4      0
+G10_t4     0
+
+[[5]]
+       G5_t6
+G5_t5      0
+G1_t5      0
+G3_t5      0
+G4_t5      0
+G6_t5      0
+G8_t5      0
+G10_t5     0
+
+[[6]]
+       G5_t7
+G5_t6      0
+G1_t6      0
+G3_t6      0
+G4_t6      0
+G6_t6      0
+G8_t6      0
+G10_t6     0
+
+[[7]]
+       G5_t8
+G5_t7      0
+G1_t7      0
+G3_t7      0
+G4_t7      0
+G6_t7      0
+G8_t7      0
+G10_t7     0
+
+[[8]]
+       G5_t9
+G5_t8      0
+G1_t8      0
+G3_t8      1
+G4_t8      0
+G6_t8      0
+G8_t8      0
+G10_t8     0
+
+[[9]]
+       G5_t10
+G5_t9       0
+G1_t9       0
+G3_t9       0
+G4_t9       0
+G6_t9       0
+G8_t9       0
+G10_t9      0
+
+[[10]]
+        G5_t11
+G5_t10       0
+G1_t10       0
+G3_t10       0
+G4_t10       0
+G6_t10       0
+G8_t10       0
+G10_t10      0
+
+[[11]]
+        G5_t12
+G5_t11       0
+G1_t11       0
+G3_t11       0
+G4_t11       0
+G6_t11       0
+G8_t11       0
+G10_t11      0
+
+[[12]]
+        G5_t13
+G5_t12       0
+G1_t12       0
+G3_t12       0
+G4_t12       0
+G6_t12       0
+G8_t12       0
+G10_t12      0
+
+[[13]]
+        G5_t14
+G5_t13       0
+G1_t13       0
+G3_t13       0
+G4_t13       0
+G6_t13       0
+G8_t13       1
+G10_t13      0
+
+[[14]]
+        G5_t15
+G5_t14       0
+G1_t14       0
+G3_t14       0
+G4_t14       0
+G6_t14       0
+G8_t14       0
+G10_t14      0
+
+[[15]]
+        G5_t16
+G5_t15       0
+G1_t15       0
+G3_t15       0
+G4_t15       0
+G6_t15       0
+G8_t15       0
+G10_t15      0
+
+[[16]]
+        G5_t17
+G5_t16       0
+G1_t16       0
+G3_t16       0
+G4_t16       0
+G6_t16       0
+G8_t16       0
+G10_t16      0
+
+[[17]]
+        G5_t18
+G5_t17       0
+G1_t17       0
+G3_t17       0
+G4_t17       0
+G6_t17       0
+G8_t17       0
+G10_t17      0
+
+[[18]]
+        G5_t19
+G5_t18       0
+G1_t18       0
+G3_t18       0
+G4_t18       0
+G6_t18       0
+G8_t18       0
+G10_t18      0
+
+[[19]]
+        G5_t20
+G5_t19       0
+G1_t19       0
+G3_t19       0
+G4_t19       0
+G6_t19       0
+G8_t19       0
+G10_t19      0
+
+[[20]]
+        G5_t21
+G5_t20       0
+G1_t20       0
+G3_t20       0
+G4_t20       0
+G6_t20       0
+G8_t20       0
+G10_t20      0
+
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+evaluation # 101:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+      G6_t2
+G6_t1     0
+G3_t1     0
+G4_t1     0
+G5_t1     0
+G7_t1     0
+G9_t1     0
+got results for task 101
+accumulating result with tag 101
+fired:
+[1] 20 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 102:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+      G6_t3
+G6_t2     0
+G3_t2     0
+G4_t2     0
+G5_t2     0
+G7_t2     0
+G9_t2     0
+got results for task 102
+accumulating result with tag 102
+fired:
+[1] 20 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 103:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+      G6_t4
+G6_t3     0
+G3_t3     0
+G4_t3     0
+G5_t3     0
+G7_t3     0
+G9_t3     0
+got results for task 103
+accumulating result with tag 103
+fired:
+[1] 20 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 104:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+      G6_t5
+G6_t4     0
+G3_t4     0
+G4_t4     0
+G5_t4     0
+G7_t4     0
+G9_t4     0
+got results for task 104
+accumulating result with tag 104
+fired:
+[1] 20 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 105:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+      G6_t6
+G6_t5     0
+G3_t5     0
+G4_t5     0
+G5_t5     0
+G7_t5     0
+G9_t5     0
+got results for task 105
+accumulating result with tag 105
+fired:
+[1] 20 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 106:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+      G6_t7
+G6_t6     0
+G3_t6     0
+G4_t6     0
+G5_t6     0
+G7_t6     0
+G9_t6     0
+got results for task 106
+accumulating result with tag 106
+fired:
+[1] 20 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 107:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+      G6_t8
+G6_t7     0
+G3_t7     0
+G4_t7     0
+G5_t7     0
+G7_t7     0
+G9_t7     0
+got results for task 107
+accumulating result with tag 107
+fired:
+[1] 20 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 108:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+      G6_t9
+G6_t8     0
+G3_t8     0
+G4_t8     0
+G5_t8     0
+G7_t8     0
+G9_t8     0
+got results for task 108
+accumulating result with tag 108
+fired:
+[1] 20 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 109:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+      G6_t10
+G6_t9      0
+G3_t9      0
+G4_t9      0
+G5_t9      0
+G7_t9      0
+G9_t9      0
+got results for task 109
+accumulating result with tag 109
+fired:
+[1] 20 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 110:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+       G6_t11
+G6_t10      0
+G3_t10      0
+G4_t10      0
+G5_t10      0
+G7_t10      0
+G9_t10      0
+got results for task 110
+accumulating result with tag 110
+fired:
+[1] 20 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 111:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+       G6_t12
+G6_t11      0
+G3_t11      0
+G4_t11      0
+G5_t11      0
+G7_t11      0
+G9_t11      0
+got results for task 111
+accumulating result with tag 111
+fired:
+[1] 20 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 112:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+       G6_t13
+G6_t12      0
+G3_t12      0
+G4_t12      0
+G5_t12      0
+G7_t12      0
+G9_t12      0
+got results for task 112
+accumulating result with tag 112
+fired:
+[1] 20 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 113:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+       G6_t14
+G6_t13      0
+G3_t13      0
+G4_t13      0
+G5_t13      0
+G7_t13      0
+G9_t13      0
+got results for task 113
+accumulating result with tag 113
+fired:
+[1] 20 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 114:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+       G6_t15
+G6_t14      0
+G3_t14      0
+G4_t14      0
+G5_t14      0
+G7_t14      0
+G9_t14      0
+got results for task 114
+accumulating result with tag 114
+fired:
+[1] 20 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 115:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+       G6_t16
+G6_t15      0
+G3_t15      0
+G4_t15      0
+G5_t15      0
+G7_t15      0
+G9_t15      0
+got results for task 115
+accumulating result with tag 115
+fired:
+[1] 20 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 116:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+       G6_t17
+G6_t16      0
+G3_t16      0
+G4_t16      0
+G5_t16      0
+G7_t16      0
+G9_t16      0
+got results for task 116
+accumulating result with tag 116
+fired:
+[1] 20 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 117:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+       G6_t18
+G6_t17      0
+G3_t17      0
+G4_t17      0
+G5_t17      0
+G7_t17      0
+G9_t17      0
+got results for task 117
+accumulating result with tag 117
+fired:
+[1] 20 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 118:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+       G6_t19
+G6_t18      0
+G3_t18      0
+G4_t18      0
+G5_t18      0
+G7_t18      0
+G9_t18      0
+got results for task 118
+accumulating result with tag 118
+fired:
+[1] 20 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 119:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+       G6_t20
+G6_t19      0
+G3_t19      0
+G4_t19      0
+G5_t19      0
+G7_t19      0
+G9_t19      0
+got results for task 119
+accumulating result with tag 119
+fired:
+[1] 20 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 120:
+$centralNodeIdx
+[1] 6
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+       G6_t21
+G6_t20      0
+G3_t20      0
+G4_t20      0
+G5_t20      0
+G7_t20      0
+G9_t20      0
+got results for task 120
+accumulating result with tag 120
+fired:
+[1] 20 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+      G6_t2
+G6_t1     0
+G3_t1     0
+G4_t1     0
+G5_t1     0
+G7_t1     0
+G9_t1     0
+
+[[2]]
+      G6_t3
+G6_t2     0
+G3_t2     0
+G4_t2     0
+G5_t2     0
+G7_t2     0
+G9_t2     0
+
+[[3]]
+      G6_t4
+G6_t3     0
+G3_t3     0
+G4_t3     0
+G5_t3     0
+G7_t3     0
+G9_t3     0
+
+[[4]]
+      G6_t5
+G6_t4     0
+G3_t4     0
+G4_t4     0
+G5_t4     0
+G7_t4     0
+G9_t4     0
+
+[[5]]
+      G6_t6
+G6_t5     0
+G3_t5     0
+G4_t5     0
+G5_t5     0
+G7_t5     0
+G9_t5     0
+
+[[6]]
+      G6_t7
+G6_t6     0
+G3_t6     0
+G4_t6     0
+G5_t6     0
+G7_t6     0
+G9_t6     0
+
+[[7]]
+      G6_t8
+G6_t7     0
+G3_t7     0
+G4_t7     0
+G5_t7     0
+G7_t7     0
+G9_t7     0
+
+[[8]]
+      G6_t9
+G6_t8     0
+G3_t8     0
+G4_t8     0
+G5_t8     0
+G7_t8     0
+G9_t8     0
+
+[[9]]
+      G6_t10
+G6_t9      0
+G3_t9      0
+G4_t9      0
+G5_t9      0
+G7_t9      0
+G9_t9      0
+
+[[10]]
+       G6_t11
+G6_t10      0
+G3_t10      0
+G4_t10      0
+G5_t10      0
+G7_t10      0
+G9_t10      0
+
+[[11]]
+       G6_t12
+G6_t11      0
+G3_t11      0
+G4_t11      0
+G5_t11      0
+G7_t11      0
+G9_t11      0
+
+[[12]]
+       G6_t13
+G6_t12      0
+G3_t12      0
+G4_t12      0
+G5_t12      0
+G7_t12      0
+G9_t12      0
+
+[[13]]
+       G6_t14
+G6_t13      0
+G3_t13      0
+G4_t13      0
+G5_t13      0
+G7_t13      0
+G9_t13      0
+
+[[14]]
+       G6_t15
+G6_t14      0
+G3_t14      0
+G4_t14      0
+G5_t14      0
+G7_t14      0
+G9_t14      0
+
+[[15]]
+       G6_t16
+G6_t15      0
+G3_t15      0
+G4_t15      0
+G5_t15      0
+G7_t15      0
+G9_t15      0
+
+[[16]]
+       G6_t17
+G6_t16      0
+G3_t16      0
+G4_t16      0
+G5_t16      0
+G7_t16      0
+G9_t16      0
+
+[[17]]
+       G6_t18
+G6_t17      0
+G3_t17      0
+G4_t17      0
+G5_t17      0
+G7_t17      0
+G9_t17      0
+
+[[18]]
+       G6_t19
+G6_t18      0
+G3_t18      0
+G4_t18      0
+G5_t18      0
+G7_t18      0
+G9_t18      0
+
+[[19]]
+       G6_t20
+G6_t19      0
+G3_t19      0
+G4_t19      0
+G5_t19      0
+G7_t19      0
+G9_t19      0
+
+[[20]]
+       G6_t21
+G6_t20      0
+G3_t20      0
+G4_t20      0
+G5_t20      0
+G7_t20      0
+G9_t20      0
+
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+evaluation # 121:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+      G7_t2
+G7_t1     0
+G1_t1     0
+G4_t1     0
+G6_t1     0
+G8_t1     0
+G9_t1     0
+got results for task 121
+accumulating result with tag 121
+fired:
+[1] 20 20 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 122:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+      G7_t3
+G7_t2     0
+G1_t2     0
+G4_t2     0
+G6_t2     0
+G8_t2     0
+G9_t2     0
+got results for task 122
+accumulating result with tag 122
+fired:
+[1] 20 20 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 123:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+      G7_t4
+G7_t3     0
+G1_t3     0
+G4_t3     0
+G6_t3     0
+G8_t3     0
+G9_t3     0
+got results for task 123
+accumulating result with tag 123
+fired:
+[1] 20 20 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 124:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+      G7_t5
+G7_t4     0
+G1_t4     0
+G4_t4     0
+G6_t4     0
+G8_t4     0
+G9_t4     0
+got results for task 124
+accumulating result with tag 124
+fired:
+[1] 20 20 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 125:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+      G7_t6
+G7_t5     0
+G1_t5     0
+G4_t5     0
+G6_t5     0
+G8_t5     0
+G9_t5     0
+got results for task 125
+accumulating result with tag 125
+fired:
+[1] 20 20 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 126:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+      G7_t7
+G7_t6     0
+G1_t6     0
+G4_t6     0
+G6_t6     0
+G8_t6     0
+G9_t6     0
+got results for task 126
+accumulating result with tag 126
+fired:
+[1] 20 20 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 127:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+      G7_t8
+G7_t7     0
+G1_t7     0
+G4_t7     0
+G6_t7     0
+G8_t7     0
+G9_t7     0
+got results for task 127
+accumulating result with tag 127
+fired:
+[1] 20 20 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 128:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+      G7_t9
+G7_t8     0
+G1_t8     0
+G4_t8     0
+G6_t8     0
+G8_t8     0
+G9_t8     0
+got results for task 128
+accumulating result with tag 128
+fired:
+[1] 20 20 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 129:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+      G7_t10
+G7_t9      0
+G1_t9      0
+G4_t9      0
+G6_t9      0
+G8_t9      0
+G9_t9      0
+got results for task 129
+accumulating result with tag 129
+fired:
+[1] 20 20 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 130:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+       G7_t11
+G7_t10      0
+G1_t10      0
+G4_t10      0
+G6_t10      0
+G8_t10      0
+G9_t10      0
+got results for task 130
+accumulating result with tag 130
+fired:
+[1] 20 20 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 131:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+       G7_t12
+G7_t11      0
+G1_t11      0
+G4_t11      0
+G6_t11      0
+G8_t11      0
+G9_t11      0
+got results for task 131
+accumulating result with tag 131
+fired:
+[1] 20 20 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 132:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+       G7_t13
+G7_t12      0
+G1_t12      0
+G4_t12      0
+G6_t12      0
+G8_t12      0
+G9_t12      0
+got results for task 132
+accumulating result with tag 132
+fired:
+[1] 20 20 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 133:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+       G7_t14
+G7_t13      0
+G1_t13      0
+G4_t13      0
+G6_t13      0
+G8_t13      0
+G9_t13      0
+got results for task 133
+accumulating result with tag 133
+fired:
+[1] 20 20 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 134:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+       G7_t15
+G7_t14      0
+G1_t14      0
+G4_t14      0
+G6_t14      0
+G8_t14      0
+G9_t14      0
+got results for task 134
+accumulating result with tag 134
+fired:
+[1] 20 20 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 135:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+       G7_t16
+G7_t15      0
+G1_t15      0
+G4_t15      0
+G6_t15      0
+G8_t15      0
+G9_t15      0
+got results for task 135
+accumulating result with tag 135
+fired:
+[1] 20 20 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 136:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+       G7_t17
+G7_t16      0
+G1_t16      0
+G4_t16      0
+G6_t16      0
+G8_t16      0
+G9_t16      0
+got results for task 136
+accumulating result with tag 136
+fired:
+[1] 20 20 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 137:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+       G7_t18
+G7_t17      0
+G1_t17      0
+G4_t17      0
+G6_t17      0
+G8_t17      0
+G9_t17      0
+got results for task 137
+accumulating result with tag 137
+fired:
+[1] 20 20 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 138:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+       G7_t19
+G7_t18      0
+G1_t18      0
+G4_t18      0
+G6_t18      0
+G8_t18      0
+G9_t18      0
+got results for task 138
+accumulating result with tag 138
+fired:
+[1] 20 20 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 139:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+       G7_t20
+G7_t19      0
+G1_t19      0
+G4_t19      0
+G6_t19      0
+G8_t19      0
+G9_t19      0
+got results for task 139
+accumulating result with tag 139
+fired:
+[1] 20 20 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 140:
+$centralNodeIdx
+[1] 7
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+       G7_t21
+G7_t20      0
+G1_t20      0
+G4_t20      0
+G6_t20      0
+G8_t20      0
+G9_t20      0
+got results for task 140
+accumulating result with tag 140
+fired:
+[1] 20 20 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+      G7_t2
+G7_t1     0
+G1_t1     0
+G4_t1     0
+G6_t1     0
+G8_t1     0
+G9_t1     0
+
+[[2]]
+      G7_t3
+G7_t2     0
+G1_t2     0
+G4_t2     0
+G6_t2     0
+G8_t2     0
+G9_t2     0
+
+[[3]]
+      G7_t4
+G7_t3     0
+G1_t3     0
+G4_t3     0
+G6_t3     0
+G8_t3     0
+G9_t3     0
+
+[[4]]
+      G7_t5
+G7_t4     0
+G1_t4     0
+G4_t4     0
+G6_t4     0
+G8_t4     0
+G9_t4     0
+
+[[5]]
+      G7_t6
+G7_t5     0
+G1_t5     0
+G4_t5     0
+G6_t5     0
+G8_t5     0
+G9_t5     0
+
+[[6]]
+      G7_t7
+G7_t6     0
+G1_t6     0
+G4_t6     0
+G6_t6     0
+G8_t6     0
+G9_t6     0
+
+[[7]]
+      G7_t8
+G7_t7     0
+G1_t7     0
+G4_t7     0
+G6_t7     0
+G8_t7     0
+G9_t7     0
+
+[[8]]
+      G7_t9
+G7_t8     0
+G1_t8     0
+G4_t8     0
+G6_t8     0
+G8_t8     0
+G9_t8     0
+
+[[9]]
+      G7_t10
+G7_t9      0
+G1_t9      0
+G4_t9      0
+G6_t9      0
+G8_t9      0
+G9_t9      0
+
+[[10]]
+       G7_t11
+G7_t10      0
+G1_t10      0
+G4_t10      0
+G6_t10      0
+G8_t10      0
+G9_t10      0
+
+[[11]]
+       G7_t12
+G7_t11      0
+G1_t11      0
+G4_t11      0
+G6_t11      0
+G8_t11      0
+G9_t11      0
+
+[[12]]
+       G7_t13
+G7_t12      0
+G1_t12      0
+G4_t12      0
+G6_t12      0
+G8_t12      0
+G9_t12      0
+
+[[13]]
+       G7_t14
+G7_t13      0
+G1_t13      0
+G4_t13      0
+G6_t13      0
+G8_t13      0
+G9_t13      0
+
+[[14]]
+       G7_t15
+G7_t14      0
+G1_t14      0
+G4_t14      0
+G6_t14      0
+G8_t14      0
+G9_t14      0
+
+[[15]]
+       G7_t16
+G7_t15      0
+G1_t15      0
+G4_t15      0
+G6_t15      0
+G8_t15      0
+G9_t15      0
+
+[[16]]
+       G7_t17
+G7_t16      0
+G1_t16      0
+G4_t16      0
+G6_t16      0
+G8_t16      0
+G9_t16      0
+
+[[17]]
+       G7_t18
+G7_t17      0
+G1_t17      0
+G4_t17      0
+G6_t17      0
+G8_t17      0
+G9_t17      0
+
+[[18]]
+       G7_t19
+G7_t18      0
+G1_t18      0
+G4_t18      0
+G6_t18      0
+G8_t18      0
+G9_t18      0
+
+[[19]]
+       G7_t20
+G7_t19      0
+G1_t19      0
+G4_t19      0
+G6_t19      0
+G8_t19      0
+G9_t19      0
+
+[[20]]
+       G7_t21
+G7_t20      0
+G1_t20      0
+G4_t20      0
+G6_t20      0
+G8_t20      0
+G9_t20      0
+
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+evaluation # 141:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+       G8_t2
+G8_t1      0
+G1_t1      0
+G3_t1      0
+G5_t1      0
+G7_t1      0
+G10_t1     0
+got results for task 141
+accumulating result with tag 141
+fired:
+[1] 20 20 20 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 142:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+       G8_t3
+G8_t2      0
+G1_t2      0
+G3_t2      0
+G5_t2      0
+G7_t2      0
+G10_t2     0
+got results for task 142
+accumulating result with tag 142
+fired:
+[1] 20 20 20 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 143:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+       G8_t4
+G8_t3      0
+G1_t3      0
+G3_t3      0
+G5_t3      0
+G7_t3      0
+G10_t3     0
+got results for task 143
+accumulating result with tag 143
+fired:
+[1] 20 20 20 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 144:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+       G8_t5
+G8_t4      0
+G1_t4      0
+G3_t4      0
+G5_t4      0
+G7_t4      0
+G10_t4     0
+got results for task 144
+accumulating result with tag 144
+fired:
+[1] 20 20 20 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 145:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+       G8_t6
+G8_t5      0
+G1_t5      0
+G3_t5      0
+G5_t5      0
+G7_t5      0
+G10_t5     0
+got results for task 145
+accumulating result with tag 145
+fired:
+[1] 20 20 20 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 146:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+       G8_t7
+G8_t6      0
+G1_t6      0
+G3_t6      0
+G5_t6      0
+G7_t6      0
+G10_t6     0
+got results for task 146
+accumulating result with tag 146
+fired:
+[1] 20 20 20 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 147:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+       G8_t8
+G8_t7      0
+G1_t7      0
+G3_t7      0
+G5_t7      0
+G7_t7      0
+G10_t7     0
+got results for task 147
+accumulating result with tag 147
+fired:
+[1] 20 20 20 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 148:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+       G8_t9
+G8_t8      0
+G1_t8      0
+G3_t8      0
+G5_t8      0
+G7_t8      1
+G10_t8     0
+got results for task 148
+accumulating result with tag 148
+fired:
+[1] 20 20 20 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 149:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+       G8_t10
+G8_t9       1
+G1_t9       0
+G3_t9       0
+G5_t9       0
+G7_t9       0
+G10_t9      0
+got results for task 149
+accumulating result with tag 149
+fired:
+[1] 20 20 20 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 150:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+        G8_t11
+G8_t10       0
+G1_t10       0
+G3_t10       0
+G5_t10       0
+G7_t10       0
+G10_t10      0
+got results for task 150
+accumulating result with tag 150
+fired:
+[1] 20 20 20 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 151:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+        G8_t12
+G8_t11       0
+G1_t11       0
+G3_t11       0
+G5_t11       0
+G7_t11       0
+G10_t11      0
+got results for task 151
+accumulating result with tag 151
+fired:
+[1] 20 20 20 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 152:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+        G8_t13
+G8_t12       0
+G1_t12       0
+G3_t12       0
+G5_t12       0
+G7_t12       0
+G10_t12      0
+got results for task 152
+accumulating result with tag 152
+fired:
+[1] 20 20 20 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 153:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+        G8_t14
+G8_t13       0
+G1_t13       0
+G3_t13       0
+G5_t13       0
+G7_t13       0
+G10_t13      0
+got results for task 153
+accumulating result with tag 153
+fired:
+[1] 20 20 20 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 154:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+        G8_t15
+G8_t14       0
+G1_t14       0
+G3_t14       0
+G5_t14       0
+G7_t14       0
+G10_t14      0
+got results for task 154
+accumulating result with tag 154
+fired:
+[1] 20 20 20 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 155:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+        G8_t16
+G8_t15       0
+G1_t15       0
+G3_t15       0
+G5_t15       0
+G7_t15       0
+G10_t15      0
+got results for task 155
+accumulating result with tag 155
+fired:
+[1] 20 20 20 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 156:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+        G8_t17
+G8_t16       0
+G1_t16       0
+G3_t16       0
+G5_t16       0
+G7_t16       0
+G10_t16      0
+got results for task 156
+accumulating result with tag 156
+fired:
+[1] 20 20 20 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 157:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+        G8_t18
+G8_t17       0
+G1_t17       0
+G3_t17       0
+G5_t17       1
+G7_t17       0
+G10_t17      0
+got results for task 157
+accumulating result with tag 157
+fired:
+[1] 20 20 20 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 158:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+        G8_t19
+G8_t18       0
+G1_t18       0
+G3_t18       0
+G5_t18       0
+G7_t18       0
+G10_t18      0
+got results for task 158
+accumulating result with tag 158
+fired:
+[1] 20 20 20 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 159:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+        G8_t20
+G8_t19       0
+G1_t19       0
+G3_t19       0
+G5_t19       0
+G7_t19       0
+G10_t19      0
+got results for task 159
+accumulating result with tag 159
+fired:
+[1] 20 20 20 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 160:
+$centralNodeIdx
+[1] 8
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+        G8_t21
+G8_t20       0
+G1_t20       0
+G3_t20       0
+G5_t20       0
+G7_t20       0
+G10_t20      0
+got results for task 160
+accumulating result with tag 160
+fired:
+[1] 20 20 20 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+       G8_t2
+G8_t1      0
+G1_t1      0
+G3_t1      0
+G5_t1      0
+G7_t1      0
+G10_t1     0
+
+[[2]]
+       G8_t3
+G8_t2      0
+G1_t2      0
+G3_t2      0
+G5_t2      0
+G7_t2      0
+G10_t2     0
+
+[[3]]
+       G8_t4
+G8_t3      0
+G1_t3      0
+G3_t3      0
+G5_t3      0
+G7_t3      0
+G10_t3     0
+
+[[4]]
+       G8_t5
+G8_t4      0
+G1_t4      0
+G3_t4      0
+G5_t4      0
+G7_t4      0
+G10_t4     0
+
+[[5]]
+       G8_t6
+G8_t5      0
+G1_t5      0
+G3_t5      0
+G5_t5      0
+G7_t5      0
+G10_t5     0
+
+[[6]]
+       G8_t7
+G8_t6      0
+G1_t6      0
+G3_t6      0
+G5_t6      0
+G7_t6      0
+G10_t6     0
+
+[[7]]
+       G8_t8
+G8_t7      0
+G1_t7      0
+G3_t7      0
+G5_t7      0
+G7_t7      0
+G10_t7     0
+
+[[8]]
+       G8_t9
+G8_t8      0
+G1_t8      0
+G3_t8      0
+G5_t8      0
+G7_t8      1
+G10_t8     0
+
+[[9]]
+       G8_t10
+G8_t9       1
+G1_t9       0
+G3_t9       0
+G5_t9       0
+G7_t9       0
+G10_t9      0
+
+[[10]]
+        G8_t11
+G8_t10       0
+G1_t10       0
+G3_t10       0
+G5_t10       0
+G7_t10       0
+G10_t10      0
+
+[[11]]
+        G8_t12
+G8_t11       0
+G1_t11       0
+G3_t11       0
+G5_t11       0
+G7_t11       0
+G10_t11      0
+
+[[12]]
+        G8_t13
+G8_t12       0
+G1_t12       0
+G3_t12       0
+G5_t12       0
+G7_t12       0
+G10_t12      0
+
+[[13]]
+        G8_t14
+G8_t13       0
+G1_t13       0
+G3_t13       0
+G5_t13       0
+G7_t13       0
+G10_t13      0
+
+[[14]]
+        G8_t15
+G8_t14       0
+G1_t14       0
+G3_t14       0
+G5_t14       0
+G7_t14       0
+G10_t14      0
+
+[[15]]
+        G8_t16
+G8_t15       0
+G1_t15       0
+G3_t15       0
+G5_t15       0
+G7_t15       0
+G10_t15      0
+
+[[16]]
+        G8_t17
+G8_t16       0
+G1_t16       0
+G3_t16       0
+G5_t16       0
+G7_t16       0
+G10_t16      0
+
+[[17]]
+        G8_t18
+G8_t17       0
+G1_t17       0
+G3_t17       0
+G5_t17       1
+G7_t17       0
+G10_t17      0
+
+[[18]]
+        G8_t19
+G8_t18       0
+G1_t18       0
+G3_t18       0
+G5_t18       0
+G7_t18       0
+G10_t18      0
+
+[[19]]
+        G8_t20
+G8_t19       0
+G1_t19       0
+G3_t19       0
+G5_t19       0
+G7_t19       0
+G10_t19      0
+
+[[20]]
+        G8_t21
+G8_t20       0
+G1_t20       0
+G3_t20       0
+G5_t20       0
+G7_t20       0
+G10_t20      0
+
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+evaluation # 161:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+      G9_t2
+G9_t1     0
+G2_t1     0
+G3_t1     0
+G4_t1     0
+G6_t1     0
+G7_t1     0
+got results for task 161
+accumulating result with tag 161
+fired:
+[1] 20 20 20 20 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 162:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+      G9_t3
+G9_t2     0
+G2_t2     0
+G3_t2     0
+G4_t2     0
+G6_t2     0
+G7_t2     0
+got results for task 162
+accumulating result with tag 162
+fired:
+[1] 20 20 20 20 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 163:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+      G9_t4
+G9_t3     0
+G2_t3     0
+G3_t3     0
+G4_t3     0
+G6_t3     0
+G7_t3     0
+got results for task 163
+accumulating result with tag 163
+fired:
+[1] 20 20 20 20 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 164:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+      G9_t5
+G9_t4     0
+G2_t4     0
+G3_t4     0
+G4_t4     0
+G6_t4     0
+G7_t4     0
+got results for task 164
+accumulating result with tag 164
+fired:
+[1] 20 20 20 20 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 165:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+      G9_t6
+G9_t5     0
+G2_t5     0
+G3_t5     0
+G4_t5     0
+G6_t5     0
+G7_t5     0
+got results for task 165
+accumulating result with tag 165
+fired:
+[1] 20 20 20 20 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 166:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+      G9_t7
+G9_t6     0
+G2_t6     0
+G3_t6     0
+G4_t6     0
+G6_t6     0
+G7_t6     0
+got results for task 166
+accumulating result with tag 166
+fired:
+[1] 20 20 20 20 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 167:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+      G9_t8
+G9_t7     0
+G2_t7     0
+G3_t7     0
+G4_t7     0
+G6_t7     0
+G7_t7     0
+got results for task 167
+accumulating result with tag 167
+fired:
+[1] 20 20 20 20 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 168:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+      G9_t9
+G9_t8     0
+G2_t8     0
+G3_t8     0
+G4_t8     0
+G6_t8     0
+G7_t8     0
+got results for task 168
+accumulating result with tag 168
+fired:
+[1] 20 20 20 20 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 169:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+      G9_t10
+G9_t9      0
+G2_t9      0
+G3_t9      0
+G4_t9      0
+G6_t9      0
+G7_t9      0
+got results for task 169
+accumulating result with tag 169
+fired:
+[1] 20 20 20 20 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 170:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+       G9_t11
+G9_t10      0
+G2_t10      0
+G3_t10      0
+G4_t10      0
+G6_t10      0
+G7_t10      0
+got results for task 170
+accumulating result with tag 170
+fired:
+[1] 20 20 20 20 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 171:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+       G9_t12
+G9_t11      0
+G2_t11      0
+G3_t11      0
+G4_t11      0
+G6_t11      0
+G7_t11      0
+got results for task 171
+accumulating result with tag 171
+fired:
+[1] 20 20 20 20 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 172:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+       G9_t13
+G9_t12      0
+G2_t12      0
+G3_t12      0
+G4_t12      0
+G6_t12      0
+G7_t12      1
+got results for task 172
+accumulating result with tag 172
+fired:
+[1] 20 20 20 20 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 173:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+       G9_t14
+G9_t13      0
+G2_t13      0
+G3_t13      0
+G4_t13      0
+G6_t13      0
+G7_t13      0
+got results for task 173
+accumulating result with tag 173
+fired:
+[1] 20 20 20 20 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 174:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+       G9_t15
+G9_t14      0
+G2_t14      0
+G3_t14      0
+G4_t14      0
+G6_t14      0
+G7_t14      0
+got results for task 174
+accumulating result with tag 174
+fired:
+[1] 20 20 20 20 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 175:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+       G9_t16
+G9_t15      0
+G2_t15      0
+G3_t15      0
+G4_t15      0
+G6_t15      0
+G7_t15      0
+got results for task 175
+accumulating result with tag 175
+fired:
+[1] 20 20 20 20 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 176:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+       G9_t17
+G9_t16      0
+G2_t16      0
+G3_t16      0
+G4_t16      0
+G6_t16      0
+G7_t16      0
+got results for task 176
+accumulating result with tag 176
+fired:
+[1] 20 20 20 20 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 177:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+       G9_t18
+G9_t17      0
+G2_t17      0
+G3_t17      0
+G4_t17      0
+G6_t17      0
+G7_t17      0
+got results for task 177
+accumulating result with tag 177
+fired:
+[1] 20 20 20 20 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 178:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+       G9_t19
+G9_t18      0
+G2_t18      0
+G3_t18      0
+G4_t18      0
+G6_t18      0
+G7_t18      0
+got results for task 178
+accumulating result with tag 178
+fired:
+[1] 20 20 20 20 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 179:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+       G9_t20
+G9_t19      0
+G2_t19      0
+G3_t19      0
+G4_t19      0
+G6_t19      0
+G7_t19      0
+got results for task 179
+accumulating result with tag 179
+fired:
+[1] 20 20 20 20 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 180:
+$centralNodeIdx
+[1] 9
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+       G9_t21
+G9_t20      0
+G2_t20      0
+G3_t20      0
+G4_t20      0
+G6_t20      0
+G7_t20      0
+got results for task 180
+accumulating result with tag 180
+fired:
+[1] 20 20 20 20 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+      G9_t2
+G9_t1     0
+G2_t1     0
+G3_t1     0
+G4_t1     0
+G6_t1     0
+G7_t1     0
+
+[[2]]
+      G9_t3
+G9_t2     0
+G2_t2     0
+G3_t2     0
+G4_t2     0
+G6_t2     0
+G7_t2     0
+
+[[3]]
+      G9_t4
+G9_t3     0
+G2_t3     0
+G3_t3     0
+G4_t3     0
+G6_t3     0
+G7_t3     0
+
+[[4]]
+      G9_t5
+G9_t4     0
+G2_t4     0
+G3_t4     0
+G4_t4     0
+G6_t4     0
+G7_t4     0
+
+[[5]]
+      G9_t6
+G9_t5     0
+G2_t5     0
+G3_t5     0
+G4_t5     0
+G6_t5     0
+G7_t5     0
+
+[[6]]
+      G9_t7
+G9_t6     0
+G2_t6     0
+G3_t6     0
+G4_t6     0
+G6_t6     0
+G7_t6     0
+
+[[7]]
+      G9_t8
+G9_t7     0
+G2_t7     0
+G3_t7     0
+G4_t7     0
+G6_t7     0
+G7_t7     0
+
+[[8]]
+      G9_t9
+G9_t8     0
+G2_t8     0
+G3_t8     0
+G4_t8     0
+G6_t8     0
+G7_t8     0
+
+[[9]]
+      G9_t10
+G9_t9      0
+G2_t9      0
+G3_t9      0
+G4_t9      0
+G6_t9      0
+G7_t9      0
+
+[[10]]
+       G9_t11
+G9_t10      0
+G2_t10      0
+G3_t10      0
+G4_t10      0
+G6_t10      0
+G7_t10      0
+
+[[11]]
+       G9_t12
+G9_t11      0
+G2_t11      0
+G3_t11      0
+G4_t11      0
+G6_t11      0
+G7_t11      0
+
+[[12]]
+       G9_t13
+G9_t12      0
+G2_t12      0
+G3_t12      0
+G4_t12      0
+G6_t12      0
+G7_t12      1
+
+[[13]]
+       G9_t14
+G9_t13      0
+G2_t13      0
+G3_t13      0
+G4_t13      0
+G6_t13      0
+G7_t13      0
+
+[[14]]
+       G9_t15
+G9_t14      0
+G2_t14      0
+G3_t14      0
+G4_t14      0
+G6_t14      0
+G7_t14      0
+
+[[15]]
+       G9_t16
+G9_t15      0
+G2_t15      0
+G3_t15      0
+G4_t15      0
+G6_t15      0
+G7_t15      0
+
+[[16]]
+       G9_t17
+G9_t16      0
+G2_t16      0
+G3_t16      0
+G4_t16      0
+G6_t16      0
+G7_t16      0
+
+[[17]]
+       G9_t18
+G9_t17      0
+G2_t17      0
+G3_t17      0
+G4_t17      0
+G6_t17      0
+G7_t17      0
+
+[[18]]
+       G9_t19
+G9_t18      0
+G2_t18      0
+G3_t18      0
+G4_t18      0
+G6_t18      0
+G7_t18      0
+
+[[19]]
+       G9_t20
+G9_t19      0
+G2_t19      0
+G3_t19      0
+G4_t19      0
+G6_t19      0
+G7_t19      0
+
+[[20]]
+       G9_t21
+G9_t20      0
+G2_t20      0
+G3_t20      0
+G4_t20      0
+G6_t20      0
+G7_t20      0
+
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+evaluation # 181:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 1
+
+result of evaluating expression:
+       G10_t2
+G10_t1      0
+G3_t1       0
+G4_t1       0
+G5_t1       0
+G8_t1       0
+got results for task 181
+accumulating result with tag 181
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  1
+numValues: 1, numResults: 1, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 182:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 2
+
+result of evaluating expression:
+       G10_t3
+G10_t2      0
+G3_t2       0
+G4_t2       0
+G5_t2       0
+G8_t2       0
+got results for task 182
+accumulating result with tag 182
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  2
+numValues: 2, numResults: 2, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 183:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 3
+
+result of evaluating expression:
+       G10_t4
+G10_t3      0
+G3_t3       0
+G4_t3       0
+G5_t3       0
+G8_t3       0
+got results for task 183
+accumulating result with tag 183
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  3
+numValues: 3, numResults: 3, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 184:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 4
+
+result of evaluating expression:
+       G10_t5
+G10_t4      0
+G3_t4       0
+G4_t4       0
+G5_t4       0
+G8_t4       0
+got results for task 184
+accumulating result with tag 184
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  4
+numValues: 4, numResults: 4, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 185:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 5
+
+result of evaluating expression:
+       G10_t6
+G10_t5      0
+G3_t5       0
+G4_t5       0
+G5_t5       0
+G8_t5       0
+got results for task 185
+accumulating result with tag 185
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  5
+numValues: 5, numResults: 5, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 186:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 6
+
+result of evaluating expression:
+       G10_t7
+G10_t6      0
+G3_t6       0
+G4_t6       0
+G5_t6       0
+G8_t6       0
+got results for task 186
+accumulating result with tag 186
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  6
+numValues: 6, numResults: 6, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 187:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 7
+
+result of evaluating expression:
+       G10_t8
+G10_t7      0
+G3_t7       0
+G4_t7       0
+G5_t7       0
+G8_t7       0
+got results for task 187
+accumulating result with tag 187
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  7
+numValues: 7, numResults: 7, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 188:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 8
+
+result of evaluating expression:
+       G10_t9
+G10_t8      0
+G3_t8       0
+G4_t8       0
+G5_t8       0
+G8_t8       0
+got results for task 188
+accumulating result with tag 188
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  8
+numValues: 8, numResults: 8, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 189:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 9
+
+result of evaluating expression:
+       G10_t10
+G10_t9       0
+G3_t9        0
+G4_t9        0
+G5_t9        0
+G8_t9        0
+got results for task 189
+accumulating result with tag 189
+fired:
+ [1] 20 20 20 20 20 20 20 20 20  9
+numValues: 9, numResults: 9, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 190:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 10
+
+result of evaluating expression:
+        G10_t11
+G10_t10       0
+G3_t10        0
+G4_t10        0
+G5_t10        0
+G8_t10        0
+got results for task 190
+accumulating result with tag 190
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 10
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 191:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 11
+
+result of evaluating expression:
+        G10_t12
+G10_t11       0
+G3_t11        0
+G4_t11        0
+G5_t11        0
+G8_t11        0
+got results for task 191
+accumulating result with tag 191
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 11
+numValues: 11, numResults: 11, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 192:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 12
+
+result of evaluating expression:
+        G10_t13
+G10_t12       0
+G3_t12        0
+G4_t12        0
+G5_t12        0
+G8_t12        0
+got results for task 192
+accumulating result with tag 192
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 12
+numValues: 12, numResults: 12, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 193:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 13
+
+result of evaluating expression:
+        G10_t14
+G10_t13       0
+G3_t13        0
+G4_t13        0
+G5_t13        0
+G8_t13        0
+got results for task 193
+accumulating result with tag 193
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 13
+numValues: 13, numResults: 13, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 194:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 14
+
+result of evaluating expression:
+        G10_t15
+G10_t14       0
+G3_t14        0
+G4_t14        0
+G5_t14        0
+G8_t14        0
+got results for task 194
+accumulating result with tag 194
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 14
+numValues: 14, numResults: 14, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 195:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 15
+
+result of evaluating expression:
+        G10_t16
+G10_t15       0
+G3_t15        0
+G4_t15        0
+G5_t15        0
+G8_t15        0
+got results for task 195
+accumulating result with tag 195
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 15
+numValues: 15, numResults: 15, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 196:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 16
+
+result of evaluating expression:
+        G10_t17
+G10_t16       0
+G3_t16        0
+G4_t16        0
+G5_t16        0
+G8_t16        0
+got results for task 196
+accumulating result with tag 196
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 16
+numValues: 16, numResults: 16, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 197:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 17
+
+result of evaluating expression:
+        G10_t18
+G10_t17       0
+G3_t17        0
+G4_t17        0
+G5_t17        0
+G8_t17        0
+got results for task 197
+accumulating result with tag 197
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 17
+numValues: 17, numResults: 17, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 198:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 18
+
+result of evaluating expression:
+        G10_t19
+G10_t18       0
+G3_t18        0
+G4_t18        0
+G5_t18        0
+G8_t18        0
+got results for task 198
+accumulating result with tag 198
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 18
+numValues: 18, numResults: 18, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 199:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 19
+
+result of evaluating expression:
+        G10_t20
+G10_t19       0
+G3_t19        0
+G4_t19        0
+G5_t19        0
+G8_t19        0
+got results for task 199
+accumulating result with tag 199
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 19
+numValues: 19, numResults: 19, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+evaluation # 200:
+$centralNodeIdx
+[1] 10
+
+$time.trans.idx
+[1] 20
+
+result of evaluating expression:
+        G10_t21
+G10_t20       0
+G3_t20        0
+G4_t20        0
+G5_t20        0
+G8_t20        0
+got results for task 200
+accumulating result with tag 200
+fired:
+ [1] 20 20 20 20 20 20 20 20 20 20
+numValues: 20, numResults: 20, stopped: FALSE
+returning status FALSE
+nextElem.ixforeach called with redo FALSE
+numValues: 20, numResults: 20, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10, result.11, 
+    result.12, result.13, result.14, result.15, result.16, result.17, 
+    result.18, result.19, result.20)
+numValues: 20, numResults: 20, stopped: TRUE
+propagating accumulated result up to the next level from nextElem
+[[1]]
+       G10_t2
+G10_t1      0
+G3_t1       0
+G4_t1       0
+G5_t1       0
+G8_t1       0
+
+[[2]]
+       G10_t3
+G10_t2      0
+G3_t2       0
+G4_t2       0
+G5_t2       0
+G8_t2       0
+
+[[3]]
+       G10_t4
+G10_t3      0
+G3_t3       0
+G4_t3       0
+G5_t3       0
+G8_t3       0
+
+[[4]]
+       G10_t5
+G10_t4      0
+G3_t4       0
+G4_t4       0
+G5_t4       0
+G8_t4       0
+
+[[5]]
+       G10_t6
+G10_t5      0
+G3_t5       0
+G4_t5       0
+G5_t5       0
+G8_t5       0
+
+[[6]]
+       G10_t7
+G10_t6      0
+G3_t6       0
+G4_t6       0
+G5_t6       0
+G8_t6       0
+
+[[7]]
+       G10_t8
+G10_t7      0
+G3_t7       0
+G4_t7       0
+G5_t7       0
+G8_t7       0
+
+[[8]]
+       G10_t9
+G10_t8      0
+G3_t8       0
+G4_t8       0
+G5_t8       0
+G8_t8       0
+
+[[9]]
+       G10_t10
+G10_t9       0
+G3_t9        0
+G4_t9        0
+G5_t9        0
+G8_t9        0
+
+[[10]]
+        G10_t11
+G10_t10       0
+G3_t10        0
+G4_t10        0
+G5_t10        0
+G8_t10        0
+
+[[11]]
+        G10_t12
+G10_t11       0
+G3_t11        0
+G4_t11        0
+G5_t11        0
+G8_t11        0
+
+[[12]]
+        G10_t13
+G10_t12       0
+G3_t12        0
+G4_t12        0
+G5_t12        0
+G8_t12        0
+
+[[13]]
+        G10_t14
+G10_t13       0
+G3_t13        0
+G4_t13        0
+G5_t13        0
+G8_t13        0
+
+[[14]]
+        G10_t15
+G10_t14       0
+G3_t14        0
+G4_t14        0
+G5_t14        0
+G8_t14        0
+
+[[15]]
+        G10_t16
+G10_t15       0
+G3_t15        0
+G4_t15        0
+G5_t15        0
+G8_t15        0
+
+[[16]]
+        G10_t17
+G10_t16       0
+G3_t16        0
+G4_t16        0
+G5_t16        0
+G8_t16        0
+
+[[17]]
+        G10_t18
+G10_t17       0
+G3_t17        0
+G4_t17        0
+G5_t17        0
+G8_t17        0
+
+[[18]]
+        G10_t19
+G10_t18       0
+G3_t18        0
+G4_t18        0
+G5_t18        0
+G8_t18        0
+
+[[19]]
+        G10_t20
+G10_t19       0
+G3_t19        0
+G4_t19        0
+G5_t19        0
+G8_t19        0
+
+[[20]]
+        G10_t21
+G10_t20       0
+G3_t20        0
+G4_t20        0
+G5_t20        0
+G8_t20        0
+
+numValues: 10, numResults: 10, stopped: FALSE
+returning status FALSE
+numValues: 10, numResults: 10, stopped: TRUE
+calling combine function
+evaluating call object to combine results:
+  fun(accum, result.1, result.2, result.3, result.4, result.5, 
+    result.6, result.7, result.8, result.9, result.10)
+[1] 10
+[1] 1
+[1] 20
+[[1]]
+      G1_t2
+G1_t1     0
+G2_t1     1
+G3_t1     0
+G5_t1     0
+G7_t1     0
+G8_t1     0
+
+[[2]]
+      G1_t3
+G1_t2     0
+G2_t2     0
+G3_t2     0
+G5_t2     0
+G7_t2     0
+G8_t2     0
+
+[[3]]
+      G1_t4
+G1_t3     0
+G2_t3     0
+G3_t3     0
+G5_t3     0
+G7_t3     0
+G8_t3     0
+
+[[4]]
+      G1_t5
+G1_t4     0
+G2_t4     1
+G3_t4     0
+G5_t4     0
+G7_t4     0
+G8_t4     0
+
+[[5]]
+      G1_t6
+G1_t5     0
+G2_t5     0
+G3_t5     0
+G5_t5     0
+G7_t5     0
+G8_t5     0
+
+[[6]]
+      G1_t7
+G1_t6     0
+G2_t6     0
+G3_t6     0
+G5_t6     0
+G7_t6     0
+G8_t6     0
+
+[[7]]
+      G1_t8
+G1_t7     0
+G2_t7     0
+G3_t7     0
+G5_t7     0
+G7_t7     0
+G8_t7     0
+
+[[8]]
+      G1_t9
+G1_t8     0
+G2_t8     0
+G3_t8     0
+G5_t8     0
+G7_t8     0
+G8_t8     0
+
+[[9]]
+      G1_t10
+G1_t9      0
+G2_t9      0
+G3_t9      0
+G5_t9      0
+G7_t9      0
+G8_t9      1
+
+[[10]]
+       G1_t11
+G1_t10      0
+G2_t10      0
+G3_t10      0
+G5_t10      0
+G7_t10      0
+G8_t10      0
+
+[[11]]
+       G1_t12
+G1_t11      0
+G2_t11      0
+G3_t11      0
+G5_t11      0
+G7_t11      0
+G8_t11      0
+
+[[12]]
+       G1_t13
+G1_t12      0
+G2_t12      0
+G3_t12      0
+G5_t12      0
+G7_t12      0
+G8_t12      0
+
+[[13]]
+       G1_t14
+G1_t13      0
+G2_t13      0
+G3_t13      0
+G5_t13      0
+G7_t13      0
+G8_t13      0
+
+[[14]]
+       G1_t15
+G1_t14      0
+G2_t14      0
+G3_t14      0
+G5_t14      1
+G7_t14      0
+G8_t14      0
+
+[[15]]
+       G1_t16
+G1_t15      0
+G2_t15      0
+G3_t15      0
+G5_t15      0
+G7_t15      0
+G8_t15      0
+
+[[16]]
+       G1_t17
+G1_t16      0
+G2_t16      0
+G3_t16      0
+G5_t16      0
+G7_t16      0
+G8_t16      0
+
+[[17]]
+       G1_t18
+G1_t17      0
+G2_t17      0
+G3_t17      0
+G5_t17      1
+G7_t17      0
+G8_t17      0
+
+[[18]]
+       G1_t19
+G1_t18      0
+G2_t18      0
+G3_t18      0
+G5_t18      0
+G7_t18      0
+G8_t18      0
+
+[[19]]
+       G1_t20
+G1_t19      0
+G2_t19      0
+G3_t19      0
+G5_t19      0
+G7_t19      0
+G8_t19      0
+
+[[20]]
+       G1_t21
+G1_t20      0
+G2_t20      0
+G3_t20      0
+G5_t20      0
+G7_t20      0
+G8_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 2
+[1] 20
+[[1]]
+      G2_t2
+G2_t1     0
+G1_t1     0
+G4_t1     1
+G9_t1     0
+
+[[2]]
+      G2_t3
+G2_t2     0
+G1_t2     0
+G4_t2     1
+G9_t2     0
+
+[[3]]
+      G2_t4
+G2_t3     1
+G1_t3     0
+G4_t3     0
+G9_t3     0
+
+[[4]]
+      G2_t5
+G2_t4     1
+G1_t4     0
+G4_t4     0
+G9_t4     0
+
+[[5]]
+      G2_t6
+G2_t5     0
+G1_t5     0
+G4_t5     1
+G9_t5     0
+
+[[6]]
+      G2_t7
+G2_t6     0
+G1_t6     0
+G4_t6     1
+G9_t6     0
+
+[[7]]
+      G2_t8
+G2_t7     1
+G1_t7     0
+G4_t7     0
+G9_t7     0
+
+[[8]]
+      G2_t9
+G2_t8     1
+G1_t8     0
+G4_t8     0
+G9_t8     0
+
+[[9]]
+      G2_t10
+G2_t9      0
+G1_t9      0
+G4_t9      0
+G9_t9      0
+
+[[10]]
+       G2_t11
+G2_t10      0
+G1_t10      0
+G4_t10      0
+G9_t10      0
+
+[[11]]
+       G2_t12
+G2_t11      0
+G1_t11      0
+G4_t11      0
+G9_t11      0
+
+[[12]]
+       G2_t13
+G2_t12      0
+G1_t12      0
+G4_t12      0
+G9_t12      0
+
+[[13]]
+       G2_t14
+G2_t13      0
+G1_t13      0
+G4_t13      0
+G9_t13      0
+
+[[14]]
+       G2_t15
+G2_t14      0
+G1_t14      0
+G4_t14      0
+G9_t14      0
+
+[[15]]
+       G2_t16
+G2_t15      0
+G1_t15      0
+G4_t15      0
+G9_t15      0
+
+[[16]]
+       G2_t17
+G2_t16      0
+G1_t16      0
+G4_t16      0
+G9_t16      0
+
+[[17]]
+       G2_t18
+G2_t17      0
+G1_t17      0
+G4_t17      0
+G9_t17      0
+
+[[18]]
+       G2_t19
+G2_t18      0
+G1_t18      0
+G4_t18      0
+G9_t18      0
+
+[[19]]
+       G2_t20
+G2_t19      0
+G1_t19      0
+G4_t19      0
+G9_t19      0
+
+[[20]]
+       G2_t21
+G2_t20      0
+G1_t20      0
+G4_t20      0
+G9_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 3
+[1] 20
+[[1]]
+       G3_t2
+G3_t1      0
+G1_t1      0
+G4_t1      0
+G5_t1      0
+G6_t1      0
+G8_t1      0
+G9_t1      0
+G10_t1     0
+
+[[2]]
+       G3_t3
+G3_t2      0
+G1_t2      0
+G4_t2      0
+G5_t2      0
+G6_t2      0
+G8_t2      0
+G9_t2      0
+G10_t2     0
+
+[[3]]
+       G3_t4
+G3_t3      0
+G1_t3      0
+G4_t3      0
+G5_t3      0
+G6_t3      0
+G8_t3      0
+G9_t3      0
+G10_t3     0
+
+[[4]]
+       G3_t5
+G3_t4      0
+G1_t4      0
+G4_t4      0
+G5_t4      0
+G6_t4      0
+G8_t4      0
+G9_t4      0
+G10_t4     0
+
+[[5]]
+       G3_t6
+G3_t5      0
+G1_t5      0
+G4_t5      0
+G5_t5      0
+G6_t5      0
+G8_t5      0
+G9_t5      0
+G10_t5     0
+
+[[6]]
+       G3_t7
+G3_t6      0
+G1_t6      0
+G4_t6      0
+G5_t6      0
+G6_t6      1
+G8_t6      0
+G9_t6      0
+G10_t6     0
+
+[[7]]
+       G3_t8
+G3_t7      0
+G1_t7      0
+G4_t7      0
+G5_t7      0
+G6_t7      0
+G8_t7      0
+G9_t7      0
+G10_t7     0
+
+[[8]]
+       G3_t9
+G3_t8      0
+G1_t8      0
+G4_t8      0
+G5_t8      0
+G6_t8      0
+G8_t8      0
+G9_t8      0
+G10_t8     0
+
+[[9]]
+       G3_t10
+G3_t9       0
+G1_t9       0
+G4_t9       0
+G5_t9       0
+G6_t9       0
+G8_t9       0
+G9_t9       0
+G10_t9      0
+
+[[10]]
+        G3_t11
+G3_t10       0
+G1_t10       0
+G4_t10       0
+G5_t10       0
+G6_t10       0
+G8_t10       0
+G9_t10       0
+G10_t10      0
+
+[[11]]
+        G3_t12
+G3_t11       0
+G1_t11       0
+G4_t11       0
+G5_t11       0
+G6_t11       0
+G8_t11       0
+G9_t11       0
+G10_t11      0
+
+[[12]]
+        G3_t13
+G3_t12       0
+G1_t12       0
+G4_t12       0
+G5_t12       0
+G6_t12       0
+G8_t12       0
+G9_t12       0
+G10_t12      0
+
+[[13]]
+        G3_t14
+G3_t13       0
+G1_t13       0
+G4_t13       0
+G5_t13       0
+G6_t13       0
+G8_t13       0
+G9_t13       0
+G10_t13      0
+
+[[14]]
+        G3_t15
+G3_t14       0
+G1_t14       0
+G4_t14       0
+G5_t14       0
+G6_t14       0
+G8_t14       0
+G9_t14       0
+G10_t14      0
+
+[[15]]
+        G3_t16
+G3_t15       0
+G1_t15       0
+G4_t15       0
+G5_t15       0
+G6_t15       0
+G8_t15       0
+G9_t15       0
+G10_t15      0
+
+[[16]]
+        G3_t17
+G3_t16       0
+G1_t16       0
+G4_t16       0
+G5_t16       0
+G6_t16       0
+G8_t16       0
+G9_t16       0
+G10_t16      0
+
+[[17]]
+        G3_t18
+G3_t17       0
+G1_t17       0
+G4_t17       0
+G5_t17       1
+G6_t17       0
+G8_t17       0
+G9_t17       0
+G10_t17      0
+
+[[18]]
+        G3_t19
+G3_t18       0
+G1_t18       0
+G4_t18       0
+G5_t18       0
+G6_t18       0
+G8_t18       0
+G9_t18       0
+G10_t18      0
+
+[[19]]
+        G3_t20
+G3_t19       0
+G1_t19       0
+G4_t19       0
+G5_t19       0
+G6_t19       0
+G8_t19       0
+G9_t19       0
+G10_t19      0
+
+[[20]]
+        G3_t21
+G3_t20       0
+G1_t20       0
+G4_t20       0
+G5_t20       0
+G6_t20       0
+G8_t20       0
+G9_t20       0
+G10_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 4
+[1] 20
+[[1]]
+       G4_t2
+G4_t1      0
+G2_t1      1
+G3_t1      0
+G5_t1      0
+G6_t1      0
+G7_t1      0
+G9_t1      0
+G10_t1     0
+
+[[2]]
+       G4_t3
+G4_t2      0
+G2_t2      0
+G3_t2      0
+G5_t2      0
+G6_t2      0
+G7_t2      0
+G9_t2      0
+G10_t2     0
+
+[[3]]
+       G4_t4
+G4_t3      0
+G2_t3      0
+G3_t3      0
+G5_t3      0
+G6_t3      0
+G7_t3      0
+G9_t3      0
+G10_t3     0
+
+[[4]]
+       G4_t5
+G4_t4      0
+G2_t4      1
+G3_t4      0
+G5_t4      0
+G6_t4      0
+G7_t4      0
+G9_t4      0
+G10_t4     0
+
+[[5]]
+       G4_t6
+G4_t5      0
+G2_t5      1
+G3_t5      0
+G5_t5      0
+G6_t5      0
+G7_t5      0
+G9_t5      0
+G10_t5     0
+
+[[6]]
+       G4_t7
+G4_t6      0
+G2_t6      0
+G3_t6      0
+G5_t6      0
+G6_t6      1
+G7_t6      0
+G9_t6      0
+G10_t6     0
+
+[[7]]
+       G4_t8
+G4_t7      0
+G2_t7      0
+G3_t7      0
+G5_t7      0
+G6_t7      0
+G7_t7      0
+G9_t7      0
+G10_t7     0
+
+[[8]]
+       G4_t9
+G4_t8      0
+G2_t8      0
+G3_t8      0
+G5_t8      0
+G6_t8      0
+G7_t8      0
+G9_t8      0
+G10_t8     0
+
+[[9]]
+       G4_t10
+G4_t9       0
+G2_t9       0
+G3_t9       0
+G5_t9       0
+G6_t9       0
+G7_t9       0
+G9_t9       0
+G10_t9      0
+
+[[10]]
+        G4_t11
+G4_t10       0
+G2_t10       0
+G3_t10       0
+G5_t10       0
+G6_t10       0
+G7_t10       0
+G9_t10       0
+G10_t10      0
+
+[[11]]
+        G4_t12
+G4_t11       0
+G2_t11       0
+G3_t11       0
+G5_t11       0
+G6_t11       0
+G7_t11       0
+G9_t11       0
+G10_t11      0
+
+[[12]]
+        G4_t13
+G4_t12       0
+G2_t12       0
+G3_t12       0
+G5_t12       0
+G6_t12       0
+G7_t12       0
+G9_t12       0
+G10_t12      0
+
+[[13]]
+        G4_t14
+G4_t13       0
+G2_t13       0
+G3_t13       0
+G5_t13       0
+G6_t13       0
+G7_t13       0
+G9_t13       0
+G10_t13      0
+
+[[14]]
+        G4_t15
+G4_t14       0
+G2_t14       0
+G3_t14       0
+G5_t14       0
+G6_t14       0
+G7_t14       0
+G9_t14       0
+G10_t14      0
+
+[[15]]
+        G4_t16
+G4_t15       0
+G2_t15       0
+G3_t15       0
+G5_t15       0
+G6_t15       0
+G7_t15       0
+G9_t15       0
+G10_t15      0
+
+[[16]]
+        G4_t17
+G4_t16       0
+G2_t16       0
+G3_t16       0
+G5_t16       0
+G6_t16       0
+G7_t16       0
+G9_t16       0
+G10_t16      0
+
+[[17]]
+        G4_t18
+G4_t17       0
+G2_t17       0
+G3_t17       0
+G5_t17       0
+G6_t17       0
+G7_t17       0
+G9_t17       0
+G10_t17      0
+
+[[18]]
+        G4_t19
+G4_t18       0
+G2_t18       0
+G3_t18       0
+G5_t18       0
+G6_t18       0
+G7_t18       0
+G9_t18       0
+G10_t18      0
+
+[[19]]
+        G4_t20
+G4_t19       0
+G2_t19       0
+G3_t19       0
+G5_t19       0
+G6_t19       0
+G7_t19       0
+G9_t19       0
+G10_t19      0
+
+[[20]]
+        G4_t21
+G4_t20       0
+G2_t20       0
+G3_t20       0
+G5_t20       0
+G6_t20       0
+G7_t20       0
+G9_t20       0
+G10_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 5
+[1] 20
+[[1]]
+       G5_t2
+G5_t1      0
+G1_t1      0
+G3_t1      0
+G4_t1      0
+G6_t1      0
+G8_t1      0
+G10_t1     0
+
+[[2]]
+       G5_t3
+G5_t2      0
+G1_t2      0
+G3_t2      0
+G4_t2      0
+G6_t2      0
+G8_t2      0
+G10_t2     0
+
+[[3]]
+       G5_t4
+G5_t3      0
+G1_t3      0
+G3_t3      0
+G4_t3      0
+G6_t3      0
+G8_t3      0
+G10_t3     0
+
+[[4]]
+       G5_t5
+G5_t4      0
+G1_t4      0
+G3_t4      0
+G4_t4      0
+G6_t4      0
+G8_t4      0
+G10_t4     0
+
+[[5]]
+       G5_t6
+G5_t5      0
+G1_t5      0
+G3_t5      0
+G4_t5      0
+G6_t5      0
+G8_t5      0
+G10_t5     0
+
+[[6]]
+       G5_t7
+G5_t6      0
+G1_t6      0
+G3_t6      0
+G4_t6      0
+G6_t6      0
+G8_t6      0
+G10_t6     0
+
+[[7]]
+       G5_t8
+G5_t7      0
+G1_t7      0
+G3_t7      0
+G4_t7      0
+G6_t7      0
+G8_t7      0
+G10_t7     0
+
+[[8]]
+       G5_t9
+G5_t8      0
+G1_t8      0
+G3_t8      1
+G4_t8      0
+G6_t8      0
+G8_t8      0
+G10_t8     0
+
+[[9]]
+       G5_t10
+G5_t9       0
+G1_t9       0
+G3_t9       0
+G4_t9       0
+G6_t9       0
+G8_t9       0
+G10_t9      0
+
+[[10]]
+        G5_t11
+G5_t10       0
+G1_t10       0
+G3_t10       0
+G4_t10       0
+G6_t10       0
+G8_t10       0
+G10_t10      0
+
+[[11]]
+        G5_t12
+G5_t11       0
+G1_t11       0
+G3_t11       0
+G4_t11       0
+G6_t11       0
+G8_t11       0
+G10_t11      0
+
+[[12]]
+        G5_t13
+G5_t12       0
+G1_t12       0
+G3_t12       0
+G4_t12       0
+G6_t12       0
+G8_t12       0
+G10_t12      0
+
+[[13]]
+        G5_t14
+G5_t13       0
+G1_t13       0
+G3_t13       0
+G4_t13       0
+G6_t13       0
+G8_t13       1
+G10_t13      0
+
+[[14]]
+        G5_t15
+G5_t14       0
+G1_t14       0
+G3_t14       0
+G4_t14       0
+G6_t14       0
+G8_t14       0
+G10_t14      0
+
+[[15]]
+        G5_t16
+G5_t15       0
+G1_t15       0
+G3_t15       0
+G4_t15       0
+G6_t15       0
+G8_t15       0
+G10_t15      0
+
+[[16]]
+        G5_t17
+G5_t16       0
+G1_t16       0
+G3_t16       0
+G4_t16       0
+G6_t16       0
+G8_t16       0
+G10_t16      0
+
+[[17]]
+        G5_t18
+G5_t17       0
+G1_t17       0
+G3_t17       0
+G4_t17       0
+G6_t17       0
+G8_t17       0
+G10_t17      0
+
+[[18]]
+        G5_t19
+G5_t18       0
+G1_t18       0
+G3_t18       0
+G4_t18       0
+G6_t18       0
+G8_t18       0
+G10_t18      0
+
+[[19]]
+        G5_t20
+G5_t19       0
+G1_t19       0
+G3_t19       0
+G4_t19       0
+G6_t19       0
+G8_t19       0
+G10_t19      0
+
+[[20]]
+        G5_t21
+G5_t20       0
+G1_t20       0
+G3_t20       0
+G4_t20       0
+G6_t20       0
+G8_t20       0
+G10_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 6
+[1] 20
+[[1]]
+      G6_t2
+G6_t1     0
+G3_t1     0
+G4_t1     0
+G5_t1     0
+G7_t1     0
+G9_t1     0
+
+[[2]]
+      G6_t3
+G6_t2     0
+G3_t2     0
+G4_t2     0
+G5_t2     0
+G7_t2     0
+G9_t2     0
+
+[[3]]
+      G6_t4
+G6_t3     0
+G3_t3     0
+G4_t3     0
+G5_t3     0
+G7_t3     0
+G9_t3     0
+
+[[4]]
+      G6_t5
+G6_t4     0
+G3_t4     0
+G4_t4     0
+G5_t4     0
+G7_t4     0
+G9_t4     0
+
+[[5]]
+      G6_t6
+G6_t5     0
+G3_t5     0
+G4_t5     0
+G5_t5     0
+G7_t5     0
+G9_t5     0
+
+[[6]]
+      G6_t7
+G6_t6     0
+G3_t6     0
+G4_t6     0
+G5_t6     0
+G7_t6     0
+G9_t6     0
+
+[[7]]
+      G6_t8
+G6_t7     0
+G3_t7     0
+G4_t7     0
+G5_t7     0
+G7_t7     0
+G9_t7     0
+
+[[8]]
+      G6_t9
+G6_t8     0
+G3_t8     0
+G4_t8     0
+G5_t8     0
+G7_t8     0
+G9_t8     0
+
+[[9]]
+      G6_t10
+G6_t9      0
+G3_t9      0
+G4_t9      0
+G5_t9      0
+G7_t9      0
+G9_t9      0
+
+[[10]]
+       G6_t11
+G6_t10      0
+G3_t10      0
+G4_t10      0
+G5_t10      0
+G7_t10      0
+G9_t10      0
+
+[[11]]
+       G6_t12
+G6_t11      0
+G3_t11      0
+G4_t11      0
+G5_t11      0
+G7_t11      0
+G9_t11      0
+
+[[12]]
+       G6_t13
+G6_t12      0
+G3_t12      0
+G4_t12      0
+G5_t12      0
+G7_t12      0
+G9_t12      0
+
+[[13]]
+       G6_t14
+G6_t13      0
+G3_t13      0
+G4_t13      0
+G5_t13      0
+G7_t13      0
+G9_t13      0
+
+[[14]]
+       G6_t15
+G6_t14      0
+G3_t14      0
+G4_t14      0
+G5_t14      0
+G7_t14      0
+G9_t14      0
+
+[[15]]
+       G6_t16
+G6_t15      0
+G3_t15      0
+G4_t15      0
+G5_t15      0
+G7_t15      0
+G9_t15      0
+
+[[16]]
+       G6_t17
+G6_t16      0
+G3_t16      0
+G4_t16      0
+G5_t16      0
+G7_t16      0
+G9_t16      0
+
+[[17]]
+       G6_t18
+G6_t17      0
+G3_t17      0
+G4_t17      0
+G5_t17      0
+G7_t17      0
+G9_t17      0
+
+[[18]]
+       G6_t19
+G6_t18      0
+G3_t18      0
+G4_t18      0
+G5_t18      0
+G7_t18      0
+G9_t18      0
+
+[[19]]
+       G6_t20
+G6_t19      0
+G3_t19      0
+G4_t19      0
+G5_t19      0
+G7_t19      0
+G9_t19      0
+
+[[20]]
+       G6_t21
+G6_t20      0
+G3_t20      0
+G4_t20      0
+G5_t20      0
+G7_t20      0
+G9_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 7
+[1] 20
+[[1]]
+      G7_t2
+G7_t1     0
+G1_t1     0
+G4_t1     0
+G6_t1     0
+G8_t1     0
+G9_t1     0
+
+[[2]]
+      G7_t3
+G7_t2     0
+G1_t2     0
+G4_t2     0
+G6_t2     0
+G8_t2     0
+G9_t2     0
+
+[[3]]
+      G7_t4
+G7_t3     0
+G1_t3     0
+G4_t3     0
+G6_t3     0
+G8_t3     0
+G9_t3     0
+
+[[4]]
+      G7_t5
+G7_t4     0
+G1_t4     0
+G4_t4     0
+G6_t4     0
+G8_t4     0
+G9_t4     0
+
+[[5]]
+      G7_t6
+G7_t5     0
+G1_t5     0
+G4_t5     0
+G6_t5     0
+G8_t5     0
+G9_t5     0
+
+[[6]]
+      G7_t7
+G7_t6     0
+G1_t6     0
+G4_t6     0
+G6_t6     0
+G8_t6     0
+G9_t6     0
+
+[[7]]
+      G7_t8
+G7_t7     0
+G1_t7     0
+G4_t7     0
+G6_t7     0
+G8_t7     0
+G9_t7     0
+
+[[8]]
+      G7_t9
+G7_t8     0
+G1_t8     0
+G4_t8     0
+G6_t8     0
+G8_t8     0
+G9_t8     0
+
+[[9]]
+      G7_t10
+G7_t9      0
+G1_t9      0
+G4_t9      0
+G6_t9      0
+G8_t9      0
+G9_t9      0
+
+[[10]]
+       G7_t11
+G7_t10      0
+G1_t10      0
+G4_t10      0
+G6_t10      0
+G8_t10      0
+G9_t10      0
+
+[[11]]
+       G7_t12
+G7_t11      0
+G1_t11      0
+G4_t11      0
+G6_t11      0
+G8_t11      0
+G9_t11      0
+
+[[12]]
+       G7_t13
+G7_t12      0
+G1_t12      0
+G4_t12      0
+G6_t12      0
+G8_t12      0
+G9_t12      0
+
+[[13]]
+       G7_t14
+G7_t13      0
+G1_t13      0
+G4_t13      0
+G6_t13      0
+G8_t13      0
+G9_t13      0
+
+[[14]]
+       G7_t15
+G7_t14      0
+G1_t14      0
+G4_t14      0
+G6_t14      0
+G8_t14      0
+G9_t14      0
+
+[[15]]
+       G7_t16
+G7_t15      0
+G1_t15      0
+G4_t15      0
+G6_t15      0
+G8_t15      0
+G9_t15      0
+
+[[16]]
+       G7_t17
+G7_t16      0
+G1_t16      0
+G4_t16      0
+G6_t16      0
+G8_t16      0
+G9_t16      0
+
+[[17]]
+       G7_t18
+G7_t17      0
+G1_t17      0
+G4_t17      0
+G6_t17      0
+G8_t17      0
+G9_t17      0
+
+[[18]]
+       G7_t19
+G7_t18      0
+G1_t18      0
+G4_t18      0
+G6_t18      0
+G8_t18      0
+G9_t18      0
+
+[[19]]
+       G7_t20
+G7_t19      0
+G1_t19      0
+G4_t19      0
+G6_t19      0
+G8_t19      0
+G9_t19      0
+
+[[20]]
+       G7_t21
+G7_t20      0
+G1_t20      0
+G4_t20      0
+G6_t20      0
+G8_t20      0
+G9_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 8
+[1] 20
+[[1]]
+       G8_t2
+G8_t1      0
+G1_t1      0
+G3_t1      0
+G5_t1      0
+G7_t1      0
+G10_t1     0
+
+[[2]]
+       G8_t3
+G8_t2      0
+G1_t2      0
+G3_t2      0
+G5_t2      0
+G7_t2      0
+G10_t2     0
+
+[[3]]
+       G8_t4
+G8_t3      0
+G1_t3      0
+G3_t3      0
+G5_t3      0
+G7_t3      0
+G10_t3     0
+
+[[4]]
+       G8_t5
+G8_t4      0
+G1_t4      0
+G3_t4      0
+G5_t4      0
+G7_t4      0
+G10_t4     0
+
+[[5]]
+       G8_t6
+G8_t5      0
+G1_t5      0
+G3_t5      0
+G5_t5      0
+G7_t5      0
+G10_t5     0
+
+[[6]]
+       G8_t7
+G8_t6      0
+G1_t6      0
+G3_t6      0
+G5_t6      0
+G7_t6      0
+G10_t6     0
+
+[[7]]
+       G8_t8
+G8_t7      0
+G1_t7      0
+G3_t7      0
+G5_t7      0
+G7_t7      0
+G10_t7     0
+
+[[8]]
+       G8_t9
+G8_t8      0
+G1_t8      0
+G3_t8      0
+G5_t8      0
+G7_t8      1
+G10_t8     0
+
+[[9]]
+       G8_t10
+G8_t9       1
+G1_t9       0
+G3_t9       0
+G5_t9       0
+G7_t9       0
+G10_t9      0
+
+[[10]]
+        G8_t11
+G8_t10       0
+G1_t10       0
+G3_t10       0
+G5_t10       0
+G7_t10       0
+G10_t10      0
+
+[[11]]
+        G8_t12
+G8_t11       0
+G1_t11       0
+G3_t11       0
+G5_t11       0
+G7_t11       0
+G10_t11      0
+
+[[12]]
+        G8_t13
+G8_t12       0
+G1_t12       0
+G3_t12       0
+G5_t12       0
+G7_t12       0
+G10_t12      0
+
+[[13]]
+        G8_t14
+G8_t13       0
+G1_t13       0
+G3_t13       0
+G5_t13       0
+G7_t13       0
+G10_t13      0
+
+[[14]]
+        G8_t15
+G8_t14       0
+G1_t14       0
+G3_t14       0
+G5_t14       0
+G7_t14       0
+G10_t14      0
+
+[[15]]
+        G8_t16
+G8_t15       0
+G1_t15       0
+G3_t15       0
+G5_t15       0
+G7_t15       0
+G10_t15      0
+
+[[16]]
+        G8_t17
+G8_t16       0
+G1_t16       0
+G3_t16       0
+G5_t16       0
+G7_t16       0
+G10_t16      0
+
+[[17]]
+        G8_t18
+G8_t17       0
+G1_t17       0
+G3_t17       0
+G5_t17       1
+G7_t17       0
+G10_t17      0
+
+[[18]]
+        G8_t19
+G8_t18       0
+G1_t18       0
+G3_t18       0
+G5_t18       0
+G7_t18       0
+G10_t18      0
+
+[[19]]
+        G8_t20
+G8_t19       0
+G1_t19       0
+G3_t19       0
+G5_t19       0
+G7_t19       0
+G10_t19      0
+
+[[20]]
+        G8_t21
+G8_t20       0
+G1_t20       0
+G3_t20       0
+G5_t20       0
+G7_t20       0
+G10_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 9
+[1] 20
+[[1]]
+      G9_t2
+G9_t1     0
+G2_t1     0
+G3_t1     0
+G4_t1     0
+G6_t1     0
+G7_t1     0
+
+[[2]]
+      G9_t3
+G9_t2     0
+G2_t2     0
+G3_t2     0
+G4_t2     0
+G6_t2     0
+G7_t2     0
+
+[[3]]
+      G9_t4
+G9_t3     0
+G2_t3     0
+G3_t3     0
+G4_t3     0
+G6_t3     0
+G7_t3     0
+
+[[4]]
+      G9_t5
+G9_t4     0
+G2_t4     0
+G3_t4     0
+G4_t4     0
+G6_t4     0
+G7_t4     0
+
+[[5]]
+      G9_t6
+G9_t5     0
+G2_t5     0
+G3_t5     0
+G4_t5     0
+G6_t5     0
+G7_t5     0
+
+[[6]]
+      G9_t7
+G9_t6     0
+G2_t6     0
+G3_t6     0
+G4_t6     0
+G6_t6     0
+G7_t6     0
+
+[[7]]
+      G9_t8
+G9_t7     0
+G2_t7     0
+G3_t7     0
+G4_t7     0
+G6_t7     0
+G7_t7     0
+
+[[8]]
+      G9_t9
+G9_t8     0
+G2_t8     0
+G3_t8     0
+G4_t8     0
+G6_t8     0
+G7_t8     0
+
+[[9]]
+      G9_t10
+G9_t9      0
+G2_t9      0
+G3_t9      0
+G4_t9      0
+G6_t9      0
+G7_t9      0
+
+[[10]]
+       G9_t11
+G9_t10      0
+G2_t10      0
+G3_t10      0
+G4_t10      0
+G6_t10      0
+G7_t10      0
+
+[[11]]
+       G9_t12
+G9_t11      0
+G2_t11      0
+G3_t11      0
+G4_t11      0
+G6_t11      0
+G7_t11      0
+
+[[12]]
+       G9_t13
+G9_t12      0
+G2_t12      0
+G3_t12      0
+G4_t12      0
+G6_t12      0
+G7_t12      1
+
+[[13]]
+       G9_t14
+G9_t13      0
+G2_t13      0
+G3_t13      0
+G4_t13      0
+G6_t13      0
+G7_t13      0
+
+[[14]]
+       G9_t15
+G9_t14      0
+G2_t14      0
+G3_t14      0
+G4_t14      0
+G6_t14      0
+G7_t14      0
+
+[[15]]
+       G9_t16
+G9_t15      0
+G2_t15      0
+G3_t15      0
+G4_t15      0
+G6_t15      0
+G7_t15      0
+
+[[16]]
+       G9_t17
+G9_t16      0
+G2_t16      0
+G3_t16      0
+G4_t16      0
+G6_t16      0
+G7_t16      0
+
+[[17]]
+       G9_t18
+G9_t17      0
+G2_t17      0
+G3_t17      0
+G4_t17      0
+G6_t17      0
+G7_t17      0
+
+[[18]]
+       G9_t19
+G9_t18      0
+G2_t18      0
+G3_t18      0
+G4_t18      0
+G6_t18      0
+G7_t18      0
+
+[[19]]
+       G9_t20
+G9_t19      0
+G2_t19      0
+G3_t19      0
+G4_t19      0
+G6_t19      0
+G7_t19      0
+
+[[20]]
+       G9_t21
+G9_t20      0
+G2_t20      0
+G3_t20      0
+G4_t20      0
+G6_t20      0
+G7_t20      0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 10
+[1] 20
+[[1]]
+       G10_t2
+G10_t1      0
+G3_t1       0
+G4_t1       0
+G5_t1       0
+G8_t1       0
+
+[[2]]
+       G10_t3
+G10_t2      0
+G3_t2       0
+G4_t2       0
+G5_t2       0
+G8_t2       0
+
+[[3]]
+       G10_t4
+G10_t3      0
+G3_t3       0
+G4_t3       0
+G5_t3       0
+G8_t3       0
+
+[[4]]
+       G10_t5
+G10_t4      0
+G3_t4       0
+G4_t4       0
+G5_t4       0
+G8_t4       0
+
+[[5]]
+       G10_t6
+G10_t5      0
+G3_t5       0
+G4_t5       0
+G5_t5       0
+G8_t5       0
+
+[[6]]
+       G10_t7
+G10_t6      0
+G3_t6       0
+G4_t6       0
+G5_t6       0
+G8_t6       0
+
+[[7]]
+       G10_t8
+G10_t7      0
+G3_t7       0
+G4_t7       0
+G5_t7       0
+G8_t7       0
+
+[[8]]
+       G10_t9
+G10_t8      0
+G3_t8       0
+G4_t8       0
+G5_t8       0
+G8_t8       0
+
+[[9]]
+       G10_t10
+G10_t9       0
+G3_t9        0
+G4_t9        0
+G5_t9        0
+G8_t9        0
+
+[[10]]
+        G10_t11
+G10_t10       0
+G3_t10        0
+G4_t10        0
+G5_t10        0
+G8_t10        0
+
+[[11]]
+        G10_t12
+G10_t11       0
+G3_t11        0
+G4_t11        0
+G5_t11        0
+G8_t11        0
+
+[[12]]
+        G10_t13
+G10_t12       0
+G3_t12        0
+G4_t12        0
+G5_t12        0
+G8_t12        0
+
+[[13]]
+        G10_t14
+G10_t13       0
+G3_t13        0
+G4_t13        0
+G5_t13        0
+G8_t13        0
+
+[[14]]
+        G10_t15
+G10_t14       0
+G3_t14        0
+G4_t14        0
+G5_t14        0
+G8_t14        0
+
+[[15]]
+        G10_t16
+G10_t15       0
+G3_t15        0
+G4_t15        0
+G5_t15        0
+G8_t15        0
+
+[[16]]
+        G10_t17
+G10_t16       0
+G3_t16        0
+G4_t16        0
+G5_t16        0
+G8_t16        0
+
+[[17]]
+        G10_t18
+G10_t17       0
+G3_t17        0
+G4_t17        0
+G5_t17        0
+G8_t17        0
+
+[[18]]
+        G10_t19
+G10_t18       0
+G3_t18        0
+G4_t18        0
+G5_t18        0
+G8_t18        0
+
+[[19]]
+        G10_t20
+G10_t19       0
+G3_t19        0
+G4_t19        0
+G5_t19        0
+G8_t19        0
+
+[[20]]
+        G10_t21
+G10_t20       0
+G3_t20        0
+G4_t20        0
+G5_t20        0
+G8_t20        0
+
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+
+ rolled.DBN.adj.matrix = 
+
+    G1 G2 G3 G4 G5 G6 G7 G8 G9 G10
+G1   0  0  0  0  0  0  0  0  0   0
+G2   2  4  0  3  0  0  0  0  0   0
+G3   0  0  0  0  1  0  0  0  0   0
+G4   0  4  0  0  0  0  0  0  0   0
+G5   2  0  1  0  0  0  0  1  0   0
+G6   0  0  1  1  0  0  0  0  0   0
+G7   0  0  0  0  0  0  0  1  1   0
+G8   1  0  0  0  1  0  0  1  0   0
+G9   0  0  0  0  0  0  0  0  0   0
+G10  0  0  0  0  0  0  0  0  0   0
+
+ di.net.adj.matrix = 
+
+    G1 G2 G3 G4 G5 G6 G7 G8 G9 G10
+G1   0  0  0  0  0  0  0  0  0   0
+G2   1  0  0  1  0  0  0  0  0   0
+G3   0  0  0  0  1  0  0  0  0   0
+G4   0  1  0  0  0  0  0  0  0   0
+G5   1  0  1  0  0  0  0  1  0   0
+G6   0  0  1  1  0  0  0  0  0   0
+G7   0  0  0  0  0  0  0  1  1   0
+G8   1  0  0  0  1  0  0  0  0   0
+G9   0  0  0  0  0  0  0  0  0   0
+G10  0  0  0  0  0  0  0  0  0   0
+
+ Iteration 1: After DBN = 
+
+Result LDBN vs True = 
+
+     TP TN FP FN TPR       FPR       FDR       PPV  ACC       MCC         F
+[1,]  3 80 10  7 0.3 0.1111111 0.7692308 0.2307692 0.83 0.1684986 0.2608696
+elapsed.time = 
+
+   user  system elapsed 
+  5.076   0.040   5.121 
