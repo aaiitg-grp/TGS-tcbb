@@ -1,0 +1,26 @@
+
+Welcome Saptarshi at Fri Oct  6 20:46:33 2017 
+Loading required package: MASS
+Loading required package: igraph
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: gplots
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+616.50user 3.26system 10:20.34elapsed 99%CPU (0avgtext+0avgdata 770988maxresident)k
+184inputs+2504outputs (1major+2941971minor)pagefaults 0swaps
