@@ -1,2 +1,2 @@
 # TGS
-The Algorithm for reconstructing Time-varying Gene regulatory networks with Shortlisted candidate regulators (TGS algorithm)
+This is the companion website for the TGS paper.
