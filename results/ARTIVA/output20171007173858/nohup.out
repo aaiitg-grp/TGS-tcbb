@@ -1,0 +1,29 @@
+
+Welcome Saptarshi at Sat Oct  7 17:38:57 2017 
+Loading required package: MASS
+Loading required package: igraph
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: gplots
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+[1] "The output directory name is:"
+[1] "/home/saptarshi/R/R-3.3.2/projects/repoARTIVA/asset/output20171007173858"
+[1] ""
+96460.36user 3467.84system 31:52:58elapsed 87%CPU (0avgtext+0avgdata 7112220maxresident)k
+118845232inputs+441576outputs (3784718major+4175408807minor)pagefaults 0swaps

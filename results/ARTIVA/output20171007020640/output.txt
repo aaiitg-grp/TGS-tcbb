@@ -1,0 +1,184 @@
+[1] "===================================================================="
+[1] "Starting  ARTIVAnet  procedure"
+[1] "===================================================================="
+[1] "===================================================================="
+[1] "GENERAL INFORMATION"
+[1] " *** Number of different time point measurements: 21"
+[1] " *** Number of repeated measurements: 1150"
+[1] " *** Number of potential parent gene(s): 50"
+[1] "===================================================================="
+[1] "ARTIVA PARAMETERS"
+[1] " **** Time delay considered in the auto-regressive process: 1"
+[1] " **** Minimal length to define a temporal segment: 2 time points"
+[1] " **** Maximal number of changepoints (CPs): 15"
+[1] " **** Number of CPs at the algorithm initialization: 1"
+[1] " **** Number of iterations: 50000"
+[1] " **** Is PSRF factor calculated? FALSE"
+[1] "===================================================================="
+[1] " *** Name of the analyzed target gene: G1"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G2"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G3"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G4"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G5"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G6"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G7"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G8"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G9"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G10"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G11"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G12"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G13"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G14"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G15"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G16"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G17"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G18"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G19"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G20"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G21"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G22"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G23"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G24"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G25"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G26"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G27"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G28"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G29"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G30"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G31"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G32"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G33"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G34"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G35"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G36"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G37"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G38"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G39"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G40"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G41"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G42"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G43"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G44"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G45"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G46"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G47"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G48"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G49"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] " *** Name of the analyzed target gene: G50"
+[1] "Running 50000 iterations:"
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[1] "Calculation of graphs representations..."
+[1] "===================================================================="
+[1] "Ending ARTIVAnet procedure"
+[1] "===================================================================="
+[1] "===================================================================="
+[1] "All results are saved in Folder: ./ARTIVAnet"
+[1] "===================================================================="
+Result ARTIVA vs True = 
+
+     TP   TN FP FN        TPR        FPR       FDR        PPV   ACC        MCC
+[1,]  6 2359 64 71 0.07792208 0.02641354 0.9142857 0.08571429 0.946 0.05394475
+              F
+[1,] 0.08163265
+elapsed.time = 
+
+     user    system   elapsed 
+16019.836   175.752 16214.996 
