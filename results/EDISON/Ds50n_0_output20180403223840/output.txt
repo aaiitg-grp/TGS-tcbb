@@ -1,0 +1,24 @@
+[1] "Initialisation successful."
+[1] "Starting tvDBN iterations..."
+5 % 10 % 15 % 20 % 25 % 30 % 35 % 40 % 45 % 50 % 55 % 60 % 65 % 70 % 75 % 80 % 85 % 90 % 95 % 100 % [1] ""
+[1] "End of iterations"
+[1] "Series 1 is completed."
+[1] "Initialisation successful."
+[1] "Starting tvDBN iterations..."
+5 % 10 % 15 % 20 % 25 % 30 % 35 % 40 % 45 % 50 % 55 % 60 % 65 % 70 % 75 % 80 % 85 % 90 % 95 % 100 % [1] ""
+[1] "End of iterations"
+[1] "Series 2 is completed."
+[1] "Initialisation successful."
+[1] "Starting tvDBN iterations..."
+5 % 10 % 15 % 20 % 25 % 30 % 35 % 40 % 45 % 50 % 55 % 60 % 65 % 70 % 75 % 80 % 85 % 90 % 95 % 100 % [1] ""
+[1] "End of iterations"
+[1] "Series 3 is completed."
+[1] "Initialisation successful."
+[1] "Starting tvDBN iterations..."
+5 % 10 % 15 % 20 % 25 % 30 % 35 % 40 % 45 % 50 % 55 % 60 % 65 % 70 % 75 % 80 % 85 % 90 % 95 % 100 % [1] ""
+[1] "End of iterations"
+[1] "Series 4 is completed."
+elapsed.time = 
+
+   user  system elapsed 
+501.952  24.192 718.609 

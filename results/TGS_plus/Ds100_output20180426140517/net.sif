@@ -1,0 +1,100 @@
+G1	pd 
+G2	pd	G31 
+G3	pd 
+G4	pd 
+G5	pd	G6	G8	G73 
+G6	pd	G5	G34 
+G7	pd 
+G8	pd 
+G9	pd 
+G10	pd 
+G11	pd 
+G12	pd 
+G13	pd 
+G14	pd	G15 
+G15	pd 
+G16	pd 
+G17	pd 
+G18	pd 
+G19	pd	G74 
+G20	pd 
+G21	pd	G3 
+G22	pd 
+G23	pd 
+G24	pd	G25 
+G25	pd	G24	G31 
+G26	pd	G76 
+G27	pd 
+G28	pd 
+G29	pd 
+G30	pd 
+G31	pd	G2 
+G32	pd 
+G33	pd 
+G34	pd	G36 
+G35	pd 
+G36	pd	G94 
+G37	pd	G78 
+G38	pd 
+G39	pd 
+G40	pd 
+G41	pd 
+G42	pd	G7 
+G43	pd 
+G44	pd 
+G45	pd 
+G46	pd 
+G47	pd 
+G48	pd 
+G49	pd 
+G50	pd 
+G51	pd 
+G52	pd 
+G53	pd	G55 
+G54	pd 
+G55	pd	G53 
+G56	pd 
+G57	pd 
+G58	pd 
+G59	pd 
+G60	pd 
+G61	pd	G51 
+G62	pd 
+G63	pd 
+G64	pd	G59 
+G65	pd	G70 
+G66	pd 
+G67	pd	G98 
+G68	pd 
+G69	pd	G61 
+G70	pd	G64	G65 
+G71	pd 
+G72	pd 
+G73	pd 
+G74	pd	G58 
+G75	pd	G57 
+G76	pd 
+G77	pd 
+G78	pd	G3 
+G79	pd 
+G80	pd 
+G81	pd 
+G82	pd 
+G83	pd 
+G84	pd	G95	G96 
+G85	pd 
+G86	pd 
+G87	pd 
+G88	pd 
+G89	pd	G94 
+G90	pd	G31	G65 
+G91	pd	G59	G76	G93 
+G92	pd	G37 
+G93	pd 
+G94	pd 
+G95	pd	G84 
+G96	pd 
+G97	pd 
+G98	pd 
+G99	pd 
+G100	pd 

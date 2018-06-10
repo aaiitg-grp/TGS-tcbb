@@ -1,0 +1,9 @@
+
+Welcome Saptarshi at Thu Apr  5 14:26:06 2018 
+Loading required package: corpcor
+Loading required package: MASS
+[1] "The output directory name is:"
+[1] "/home/saptarshi/R/R-3.3.2/projects/repoedisonr/asset/output20180405142607"
+[1] ""
+858.44user 337.02system 2:53:35elapsed 11%CPU (0avgtext+0avgdata 18221504maxresident)k
+19462976inputs+13864outputs (1322521major+29308842minor)pagefaults 0swaps

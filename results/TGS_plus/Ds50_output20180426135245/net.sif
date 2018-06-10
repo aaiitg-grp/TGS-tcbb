@@ -1,0 +1,50 @@
+G1	pd 
+G2	pd 
+G3	pd 
+G4	pd	G7 
+G5	pd	G7 
+G6	pd	G24 
+G7	pd	G5	G12 
+G8	pd 
+G9	pd	G16 
+G10	pd 
+G11	pd 
+G12	pd	G17 
+G13	pd 
+G14	pd	G17 
+G15	pd 
+G16	pd 
+G17	pd	G12	G14	G20 
+G18	pd 
+G19	pd	G10 
+G20	pd 
+G21	pd 
+G22	pd 
+G23	pd 
+G24	pd	G27 
+G25	pd	G7	G35 
+G26	pd 
+G27	pd	G24 
+G28	pd	G31 
+G29	pd 
+G30	pd 
+G31	pd	G35 
+G32	pd 
+G33	pd 
+G34	pd 
+G35	pd	G25	G31 
+G36	pd	G22 
+G37	pd 
+G38	pd 
+G39	pd 
+G40	pd 
+G41	pd 
+G42	pd 
+G43	pd 
+G44	pd 
+G45	pd 
+G46	pd 
+G47	pd 
+G48	pd 
+G49	pd 
+G50	pd 
